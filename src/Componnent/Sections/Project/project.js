@@ -34,7 +34,7 @@ function Project(props) {
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
                 <li>
-                    <Link target='blank' to={'https://main--basketball-demo.netlify.app/'}>
+                    <Link target='blank' to={'https://basketball-demo.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>Basketball website demo </span>
@@ -115,7 +115,7 @@ function Project(props) {
                     </Link>
                 </li>
                 <li>
-                    <Link target='blank' to={'https://main--emma-pierre-demo.netlify.app/'}>
+                    <Link target='blank' to={'https://emma-pierre-demo.netlify.app/'}>
                         <div className='card card-info'>
                             <div className='top'>
                             <span className='under'>Création et intégration d'un site de bijoux en 4 jours</span>
