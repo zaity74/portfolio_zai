@@ -1,0 +1,93 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+} 
+
+@media all and (min-width: 720px){
+    .info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        .container{
+            width: 100%;
+            ul{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li:first-child{
+                    border-right: 0.7px #8f8f8f solid;
+                }
+                li{
+                    &:hover{
+                        background-color: rgba(143, 143, 143, 0.16) ;
+                    }
+                    .link{
+                        display: block;
+                        padding: 32px 16px;
+                        text-decoration: none;
+                        transition: all .3s;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        color: rgba(0, 31, 71, 0.9);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px){
+    .info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        .container{
+            width: 100%;
+            ul{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li:first-child{
+                    border-right: 0.7px #8f8f8f solid;
+                }
+                li{
+                    &:hover{
+                        background-color: rgba(143, 143, 143, 0.16) ;
+                    }
+                    .link{
+                        display: block;
+                        text-align: center;
+                        padding: 32px 16px;
+                        text-decoration: none;
+                        transition: all .3s;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.08rem;
+                        font-weight: 700;
+                        color: rgba(0, 31, 71, 0.9);
+                    }
+                }
+            }
+        }
+    }
+}

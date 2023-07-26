@@ -1,0 +1,415 @@
+@media all and (min-width: 1024px){
+    #project {
+        position: relative; /* Set position relative for the pseudo-element */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        background-image: linear-gradient(220deg, rgba(255, 255, 255, 0.8) 40%, rgba(225, 225, 225, 0.6) 80%);
+        .container{
+            width: 90%;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            display: flex;
+            align-items: flex-start;
+            .text-container{
+                padding-right: 4em;
+                width: 100%;
+                .section-name{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: #4f83c6;
+                    background-color: #6c5ce71a;
+                    padding: 5px 10px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    letter-spacing: .6px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+                .project-list{
+                    grid-template-columns: repeat(12, minmax(0, 1fr));
+                    display: -ms-grid;
+                    display: grid;
+                    width: 100%;
+                    grid-column-gap: 1.5rem;
+                    grid-row-gap: 1.5rem;
+                    padding-left: 0px !important;
+                    li{
+                        grid-template-columns: minmax(0px, 1fr);
+                        display: grid;
+                        grid-column-end: span 3;
+                        transform: scale(1);
+                        transition: 0.7s ease-in-out;
+                        &:hover{
+                            transform: scale(1.08);
+                        }
+                        a{
+                            text-decoration: none;
+                            .card{
+                                display: flex;
+                                flex-direction: column;
+                                width: auto;
+                                height: 302px;
+                                padding: 0.4em;
+                                background-color: white;
+                                box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+                                .top{
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 0px;
+                                    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                                    font-size: 0.875rem;
+                                    padding-top: 0.35rem;
+                                    padding-bottom: 0.35rem;
+                                    background-color: #6c5ce71a;
+                                    padding-left: 0.75rem;
+                                    padding-right: 0.75rem;
+                                    border-bottom: none;
+                                    border-radius: 4px 4px 0px 0px;
+                                    gap: 4px;
+                                    p{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        margin-top: 0px !important;
+                                        margin-bottom: 0px !important;
+                                    }
+                                    .under{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .image{
+                                    height: 234px;
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        object-position: 50% 30%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 720px){
+    #project {
+        position: relative; /* Set position relative for the pseudo-element */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        background-image: linear-gradient(220deg, rgba(255, 255, 255, 0.8) 40%, rgba(225, 225, 225, 0.6) 80%);
+        .container{
+            width: 90%;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            display: flex;
+            align-items: flex-start;
+            .text-container{
+                //padding-right: 4em;
+                width: 100%;
+                .section-name{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: #4f83c6;
+                    background-color: #6c5ce71a;
+                    padding: 5px 10px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    letter-spacing: .6px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+                .project-list{
+                    grid-template-columns: repeat(9, minmax(0, 1fr));
+                    display: -ms-grid;
+                    display: grid;
+                    width: 100%;
+                    grid-column-gap: 1.5rem;
+                    grid-row-gap: 1.5rem;
+                    padding-left: 0px !important;
+                    li{
+                        grid-template-columns: minmax(0px, 1fr);
+                        display: grid;
+                        grid-column-end: span 3;
+                        transform: scale(1);
+                        transition: 0.7s ease-in-out;
+                        &:hover{
+                            transform: scale(1.08);
+                        }
+                        a{
+                            text-decoration: none;
+                            .card{
+                                display: flex;
+                                flex-direction: column;
+                                width: auto;
+                                height: 302px;
+                                padding: 0.4em;
+                                background-color: white;
+                                box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+                                .top{
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 0px;
+                                    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                                    font-size: 0.875rem;
+                                    padding-top: 0.35rem;
+                                    padding-bottom: 0.35rem;
+                                    background-color: #6c5ce71a;
+                                    padding-left: 0.75rem;
+                                    padding-right: 0.75rem;
+                                    border-bottom: none;
+                                    border-radius: 4px 4px 0px 0px;
+                                    gap: 4px;
+                                    p{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        margin-top: 0px !important;
+                                        margin-bottom: 0px !important;
+                                    }
+                                    .under{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .image{
+                                    height: 234px;
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        object-position: 50% 30%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px) and (min-width: 420px){
+    #project {
+        position: relative; /* Set position relative for the pseudo-element */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        background-image: linear-gradient(220deg, rgba(255, 255, 255, 0.8) 40%, rgba(225, 225, 225, 0.6) 80%);
+        .container{
+            width: 90%;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            display: flex;
+            align-items: flex-start;
+            .text-container{
+                //padding-right: 4em;
+                width: 100%;
+                .section-name{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: #4f83c6;
+                    background-color: #6c5ce71a;
+                    padding: 5px 10px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    letter-spacing: .6px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+                .project-list{
+                    grid-template-columns: repeat(6, minmax(0, 1fr));
+                    display: -ms-grid;
+                    display: grid;
+                    width: 100%;
+                    grid-column-gap: 1.5rem;
+                    grid-row-gap: 1.5rem;
+                    padding-left: 0px !important;
+                    li{
+                        grid-template-columns: minmax(0px, 1fr);
+                        display: grid;
+                        grid-column-end: span 3;
+                        transform: scale(1);
+                        transition: 0.7s ease-in-out;
+                        &:hover{
+                            transform: scale(1.08);
+                        }
+                        a{
+                            text-decoration: none;
+                            .card{
+                                display: flex;
+                                flex-direction: column;
+                                width: auto;
+                                height: 302px;
+                                padding: 0.4em;
+                                background-color: white;
+                                box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+                                .top{
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 0px;
+                                    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                                    font-size: 0.875rem;
+                                    padding-top: 0.35rem;
+                                    padding-bottom: 0.35rem;
+                                    background-color: #6c5ce71a;
+                                    padding-left: 0.75rem;
+                                    padding-right: 0.75rem;
+                                    border-bottom: none;
+                                    border-radius: 4px 4px 0px 0px;
+                                    gap: 4px;
+                                    p{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        margin-top: 0px !important;
+                                        margin-bottom: 0px !important;
+                                    }
+                                    .under{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .image{
+                                    height: 234px;
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        object-position: 50% 30%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 420px){
+    #project {
+        position: relative; /* Set position relative for the pseudo-element */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.7px #8f8f8f solid;
+        background-image: linear-gradient(220deg, rgba(255, 255, 255, 0.8) 40%, rgba(225, 225, 225, 0.6) 80%);
+        .container{
+            width: 90%;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            display: flex;
+            align-items: flex-start;
+            .text-container{
+                //padding-right: 4em;
+                width: 100%;
+                .section-name{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: #4f83c6;
+                    background-color: #6c5ce71a;
+                    padding: 5px 10px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    letter-spacing: .6px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+                .project-list{
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                    display: -ms-grid;
+                    display: grid;
+                    width: 100%;
+                    grid-column-gap: 1.5rem;
+                    grid-row-gap: 1.5rem;
+                    padding-left: 0px !important;
+                    li{
+                        grid-template-columns: minmax(0px, 1fr);
+                        display: grid;
+                        grid-column-end: span 3;
+                        transform: scale(1);
+                        transition: 0.7s ease-in-out;
+                        &:hover{
+                            transform: scale(1.08);
+                        }
+                        a{
+                            text-decoration: none;
+                            .card{
+                                display: flex;
+                                flex-direction: column;
+                                width: auto;
+                                height: 302px;
+                                padding: 0.4em;
+                                background-color: white;
+                                box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+                                .top{
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 0px;
+                                    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                                    font-size: 0.875rem;
+                                    padding-top: 0.35rem;
+                                    padding-bottom: 0.35rem;
+                                    background-color: #6c5ce71a;
+                                    padding-left: 0.75rem;
+                                    padding-right: 0.75rem;
+                                    border-bottom: none;
+                                    border-radius: 4px 4px 0px 0px;
+                                    gap: 4px;
+                                    p{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        margin-top: 0px !important;
+                                        margin-bottom: 0px !important;
+                                    }
+                                    .under{
+                                        font-size: 0.9rem;
+                                        color: black;
+                                        font-weight: 600;
+                                    }
+                                }
+                                .image{
+                                    height: 234px;
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        object-position: 50% 30%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
