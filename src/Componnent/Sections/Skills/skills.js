@@ -28,7 +28,7 @@ function Skills(props) {
             <div className="text-container">
               <p className="section-name">Mes compétences</p>
               <p>
-                Récemment diplômé d'un bachelor 3 en informatique, je suis actuellement à la recherche d'un stage de 12 mois en tant que développeur full-stack
+              J'ai été amené à acquérir une multitude de compétences sur des technologies variées lors de la réalisation de mes différents projets et en entreprise.
               </p>
               <ul className="skills-filter">
                 <li className={`filter ${filter === 'Front-end' ? 'selected' : ''}`} onClick={() => handleFilterClick('Front-end')}>

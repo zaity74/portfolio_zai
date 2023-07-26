@@ -88,8 +88,19 @@ function Project(props) {
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/'}>
+                    <Link to={'#'}>
                         <div className='card'>
+                            <div className='overlay'>
+                                <h4>Description</h4>
+                                <p>
+                                    Développement d'un module interne, dedié à la gestion des formations client sur Odoo. <br></br>
+                                    Le module a été développer avec le framework Odoo Python. 
+                                    Ce module permet de créer des formations et des sessions de formations pour chaque clients. 
+                                    Il permet de saisir les participants à chaque sessions, envoyer des évaluations, saisir les présence de chaque participants. <br></br>
+                                    Et envoyer des dossiers et mail relatifs à la formation.
+
+                                </p>
+                            </div>
                             <div className='top'>
                                 <p>Project d'entreprise</p>
                                 <span className='under'>Modules de gestion de formations</span>
@@ -104,8 +115,8 @@ function Project(props) {
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/'}>
-                        <div className='card'>
+                    <Link target='blank' to={'https://main--emma-pierre-demo.netlify.app/'}>
+                        <div className='card card-info'>
                             <div className='top'>
                             <span className='under'>Création et intégration d'un site de bijoux en 4 jours</span>
                                 <p>Project scolaire, challenge stack</p>
