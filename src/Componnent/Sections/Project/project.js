@@ -34,23 +34,6 @@ function Project(props) {
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
                 <li>
-                    <Link target='blank' to={'https://basketball-demo.netlify.app/'}>
-                        <div className='card'>
-                            <div className='top'>
-                                <span className='under'>Basketball website demo </span>
-                                <p>Project full stack e-commerce
-                                </p>
-                            </div>
-                            <div className='image'>
-                                <img src={basketball} alt='basket-photo' />
-                            </div>
-                            <div className='bottom'>
-                                <span>React, NodeJs, Express, Mangodb</span>
-                            </div>
-                        </div>
-                    </Link>
-                </li>
-                <li>
                     <Link target='blank' to={'https://www.drbekri-gynecologue.ch/'}>
                         <div className='card'>
                             <div className='top'>
@@ -126,6 +109,23 @@ function Project(props) {
                             </div>
                             <div className='bottom'>
                                 <span>Html, Css, Javascript</span>
+                            </div>
+                        </div>
+                    </Link>
+                </li>
+                  <li>
+                    <Link target='blank' to={'https://basketball-demo.netlify.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>Basketball website demo </span>
+                                <p>Project full stack e-commerce
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={basketball} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, NodeJs, Express, Mangodb</span>
                             </div>
                         </div>
                     </Link>
