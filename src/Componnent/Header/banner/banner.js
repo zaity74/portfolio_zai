@@ -1,11 +1,13 @@
 import './banner.scss';
 import codeImage from '../../../images/codeImage.png'
+import fred from '../../../images/fred.jpeg'
 
 // Redux import 
 // Hooks
 import React, { useState, useEffect } from "react";
 import { Link} from 'react-router-dom';
 import { FaLinkedinIn, FaGithubAlt } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
 
 function Banner(props) {
     const { articles } = props;
@@ -31,6 +33,7 @@ function Banner(props) {
                     </h2>
                     <div className='social'>
                         <Link target='blank' to={'https://www.linkedin.com/in/frederic-zai-7a8078192/'}><FaLinkedinIn className='icone' /></Link>
+                        <Link target='blank' to={'https://github.com/zaity74'}><BsGithub className='icone' /></Link>
                     </div>
                     <h3>Développeur full-stack Junior</h3>
                     <p>Récemment dimplômé d'un bachelor 3 en informatique, je suis actuellement à la recherche d'un stage de 12 mois en tant 
@@ -38,7 +41,7 @@ function Banner(props) {
                     </p>
                 </div>
                 <div className='image-hero'>
-                <img className='avatar' src='https://media.licdn.com/dms/image/D4E03AQEr58GoXG73zg/profile-displayphoto-shrink_400_400/0/1676218099830?e=1695859200&v=beta&t=h5L7bXXDasBr31GxoLd8ajnLmDVQOx2xNgcwL_ySVRE' alt='banner-image'  />
+                <img className='avatar' src={fred} alt='banner-image'  />
                 <img src={codeImage} alt='banner-image'  />
                 </div>
 
