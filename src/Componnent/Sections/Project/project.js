@@ -4,7 +4,7 @@ import valorum from '../../../images/valorum.png';
 import basketball from '../../../images/basketball.png';
 import formation from '../../../images/formations.png';
 import emma from '../../../images/emma.png';
-import basket2 from '../../../images/Basket2.jpeg';
+import basket2 from '../../../images/Basket3.jpeg';
 
 // Redux import 
 // Hooks
