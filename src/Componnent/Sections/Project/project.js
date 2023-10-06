@@ -35,6 +35,23 @@ function Project(props) {
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
                 <li>
+                    <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>Basketball website demo 2 </span>
+                                <p>Project front-end
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={basket2} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, Sass</span>
+                            </div>
+                        </div>
+                    </Link>
+                </li>
+                <li>
                     <Link target='blank' to={'https://www.drbekri-gynecologue.ch/'}>
                         <div className='card'>
                             <div className='top'>
@@ -127,23 +144,6 @@ function Project(props) {
                             </div>
                             <div className='bottom'>
                                 <span>React, NodeJs, Express, Mangodb</span>
-                            </div>
-                        </div>
-                    </Link>
-                </li>
-                <li>
-                    <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
-                        <div className='card'>
-                            <div className='top'>
-                                <span className='under'>Basketball website demo 2 </span>
-                                <p>Project front-end
-                                </p>
-                            </div>
-                            <div className='image'>
-                                <img src={basket2} alt='basket-photo' />
-                            </div>
-                            <div className='bottom'>
-                                <span>React, Sass</span>
                             </div>
                         </div>
                     </Link>
