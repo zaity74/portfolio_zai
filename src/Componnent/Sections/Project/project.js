@@ -1,5 +1,5 @@
 import './project.scss';
-import drbekri from '../../../images/drbekri2.png';
+import drbekri from '../../../images/drbekri2.jpeg';
 import valorum from '../../../images/valorum.png';
 import basketball from '../../../images/Annecy.png';
 import formation from '../../../images/formations.png';
