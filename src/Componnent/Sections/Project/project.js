@@ -5,6 +5,7 @@ import basketball from '../../../images/basketball.png';
 import formation from '../../../images/formations.png';
 import emma from '../../../images/emma.png';
 import basket2 from '../../../images/Basket3.jpeg';
+import mabonneetoile from '../../../images/yotech.jpeg';
 
 // Redux import 
 // Hooks
@@ -47,6 +48,23 @@ function Project(props) {
                             </div>
                             <div className='bottom'>
                                 <span>React, Sass</span>
+                            </div>
+                        </div>
+                    </Link>
+                </li>
+                <li>
+                    <Link target='blank' to={'http://www.mabonneetoile.eco/squiz'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>MaBonneEtoile </span>
+                                <p>Project entreprise, site e-commerce
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={mabonneetoile} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>Odoo</span>
                             </div>
                         </div>
                     </Link>
