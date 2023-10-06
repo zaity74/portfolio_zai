@@ -9,6 +9,7 @@
         transition: all 0.13s ease-in-out;
         border-bottom: 0.7px #8f8f8f solid;
         display: flex;
+        background-color: #0D1117;
         .container{
             margin: auto;
             width: 90%;
@@ -24,7 +25,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                border-right: 0.7px black solid;
+                border-right: 0.7px rgb(255, 255, 255) solid;
                 padding-left: 1em;
                 padding-right: 1em;
                 color: #4f83c6;
@@ -37,7 +38,7 @@
                 p{
                     margin-bottom: 0px !important;
                     margin-top: 0px !important;
-                    color: black;
+                    color: rgb(254, 254, 254);
                 }
             }
             .login-container{
@@ -50,7 +51,7 @@
                 top: 0px;
                 flex-grow: 2;
                 //box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 16px -4px;
-                background-color: white;
+                background-color: #0D1117;
                 list-style-type: none;
                 height: 100%;
         
@@ -63,9 +64,9 @@
                     align-items: center;
                     width: 50%;
                     gap: 3px;
-                    border-right: 0.7px black solid;
+                    border-right: 0.7px rgb(255, 255, 255) solid;
                     &:hover{
-                        background-color: rgba(143, 143, 143, 0.1);
+                        background-color: rgba(255, 255, 255, 1);
                         .link{
                             color: rgba(0, 31, 71, 0.8);
                         }
@@ -73,7 +74,7 @@
                     .link{
                         width: 100%;
                         margin: 0px;
-                        color: rgb(0, 31, 71);
+                        color: rgb(255, 255, 255);
                         font-size: 1.3rem;
                         line-height: 1.3;
                         font-weight: 700;
@@ -99,17 +100,17 @@
                     padding-left: 0.6rem;
                     padding-right: 0.6rem;
                     gap: 3px;
-                    border-right: 0.7px black solid;
+                    border-right: 0.7px rgb(255, 255, 255) solid;
                     &:hover{
-                        background-color: rgba(143, 143, 143, 0.1);
+                        background-color: rgba(255, 255, 255, 1);
                         .link{
-                            color: rgba(0, 31, 71, 0.8);
+                            color: rgba(2, 15, 32, 0.8);
                         }
                     }
                     .link{
                         width: 100%;
                         margin: 0px;
-                        color: rgb(0, 31, 71);
+                        color: rgb(255, 255, 255);
                         font-size: 0.8rem;
                         line-height: 1.3;
                         font-weight: 700;
@@ -123,7 +124,7 @@
                 .separator{
                     width: 1px;
                     margin: auto;
-                    background-color: black;
+                    background-color: rgb(253, 253, 253);
                     z-index: 4;
                     height: 40%;
                     position: absolute;
@@ -259,6 +260,7 @@
         height: 70px;
         transition: all 0.13s ease-in-out;
         border-bottom: 0.7px #8f8f8f solid;
+        background-color: #0D1117;
         .container{
             width: 90%;
             height: 100%;
@@ -274,7 +276,7 @@
                 align-items: center;
                 column-gap: 12px;
                 padding-left: 1.5rem;
-                border-left: 0.8px #001E3C solid;
+                border-left: 0.8px #ffffff solid;
                 text-decoration: none;
                 text-transform: uppercase;
                 font-weight: 600;
@@ -304,7 +306,7 @@
                 p{
                     margin-bottom: 0px !important;
                     margin-top: 0px !important;
-                    color: black;
+                    color: rgb(255, 255, 255);
                 }
 
             }
@@ -317,7 +319,7 @@
                 z-index: 10;
                 top: 0px;
                 //box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 16px -4px;
-                background-color: white;
+                background-color: #0D1117;
                 list-style-type: none;
                 height: 100%;
         
@@ -333,7 +335,7 @@
                     border-right: 0.7px black solid;
                     .link{
                         margin: 0px;
-                        color: rgb(0, 31, 71);
+                        color: rgb(255, 255, 255);
                         font-size: 1.3rem;
                         line-height: 1.3;
                         font-weight: 700;
@@ -355,10 +357,10 @@
                     padding-left: 0.6rem;
                     padding-right: 0.6rem;
                     gap: 3px;
-                    border-right: 0.7px black solid;
+                    border-right: 0.7px rgb(255, 255, 255) solid;
                     .link{
                         margin: 0px;
-                        color: rgb(0, 31, 71);
+                        color: rgb(255, 255, 255);
                         font-size: 0.8rem;
                         line-height: 1.3;
                         font-weight: 700;
@@ -372,7 +374,7 @@
                 .separator{
                     width: 1px;
                     margin: auto;
-                    background-color: black;
+                    background-color: rgb(255, 255, 255);
                     z-index: 4;
                     height: 40%;
                     position: absolute;

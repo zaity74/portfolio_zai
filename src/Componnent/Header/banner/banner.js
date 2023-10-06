@@ -35,7 +35,7 @@ function Banner(props) {
                         <Link target='blank' to={'https://www.linkedin.com/in/frederic-zai-7a8078192/'}><FaLinkedinIn className='icone' /></Link>
                         <Link target='blank' to={'https://github.com/zaity74'}><BsGithub className='icone' /></Link>
                     </div>
-                    <h3>Développeur full-stack Junior</h3>
+                    <h3>Développeur full-stack Junior 🧑🏾‍💻</h3>
                     <p>Récemment dimplômé d'un bachelor 3 en informatique, je suis actuellement à la recherche d'un stage de 12 mois en tant 
                         que développeur full-stack 
                     </p>

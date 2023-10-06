@@ -3,7 +3,8 @@
         position: relative; /* Set position relative for the pseudo-element */
         width: 100%;
         display: flex;
-        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 60%, rgba(14, 96, 248, 0.4) 80%);
+        background-color: #0D1117;
+        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -19,6 +20,7 @@
             .text-container{
                 padding-right: 4em;
                 width: 50%;
+                color: white;
                 .section-name{
                     display: inline-block;
                     text-transform: uppercase;
@@ -58,10 +60,11 @@
                 h3{
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: rgba(0, 0, 0, 0.9);
+                    color: rgba(255, 255, 255, 0.9);
                 }
                 p{
                     font-size: 1.1rem;
+                    color: white;
                 }
             }
             .image-hero{
@@ -99,7 +102,8 @@
         position: relative; /* Set position relative for the pseudo-element */
         width: 100%;
         display: flex;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
+        background-color: #0D1117;
+        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -156,10 +160,11 @@
                 h3{
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: rgba(0, 0, 0, 0.9);
+                    color: rgba(255, 255, 255, 0.9);
                 }
                 p{
                     font-size: 1.1rem;
+                    color: white;
                 }
             }
             .image-hero{
@@ -198,7 +203,8 @@
         position: relative; /* Set position relative for the pseudo-element */
         width: 100%;
         display: flex;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
+        background-color: #0D1117;
+        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -255,10 +261,11 @@
                 h3{
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: rgba(0, 0, 0, 0.9);
+                    color: rgba(255, 255, 255, 0.9);
                 }
                 p{
                     font-size: 1.1rem;
+                    color: white;
                 }
             }
             .image-hero{
@@ -296,7 +303,8 @@
         position: relative; /* Set position relative for the pseudo-element */
         width: 100%;
         display: flex;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
+        background-color: #0D1117;
+        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 60%, rgba(14, 96, 248, 0.3) 80%);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -353,10 +361,11 @@
                 h3{
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: rgba(0, 0, 0, 0.9);
+                    color: rgba(255, 255, 255, 0.9);
                 }
                 p{
                     font-size: 1.1rem;
+                    color: white;
                 }
             }
             .image-hero{
