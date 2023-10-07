@@ -1,5 +1,5 @@
 import './banner.scss';
-import codeImage from '../../../images/codeImage.png'
+import codeImage from '../../../images/net2.png'
 import fred from '../../../images/fred.jpeg'
 
 // Redux import 

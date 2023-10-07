@@ -39,9 +39,14 @@
                     font-size: 3rem;
                     font-weight: 600;
                     text-transform: uppercase;
-                    color: #4f83c6;
                     margin-top: 0px !important;
                     margin-bottom: 0px !important;
+                    background: url(https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/200w.webp?cid=ecf05e47ntl9u8wehsyrp8ziolroj04smvqbmn49y062cx8v&ep=v1_gifs_search&rid=200w.webp&ct=g) repeat;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    background-position: 180px;
+                    background-position-y: -98px;
+                    color: rgba(79, 131, 198, 0.18);
                 }
                 .social{
                     display: flex;
