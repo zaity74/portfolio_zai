@@ -123,6 +123,17 @@
                                         color: rgb(255, 255, 255)
                                     }
                                 }
+                                .bottom{
+                                    padding: 0.8em;
+                                    position: absolute;
+                                    z-index: 2;
+                                    bottom: 0;
+                                    background-color: #0d1117;
+                                    color: black;
+                                    span{
+                                        color: rgb(255, 255, 255);
+                                    }
+                                }
                             }
                         }
                     }
@@ -251,6 +262,17 @@
                                         color: rgb(255, 255, 255)
                                     }
                                 }
+                                .bottom{
+                                    padding: 0.8em;
+                                    position: absolute;
+                                    z-index: 2;
+                                    bottom: 0;
+                                    background-color: #0d1117;
+                                    color: black;
+                                    span{
+                                        color: rgb(255, 255, 255);
+                                    }
+                                }
                             }
                         }
                     }
@@ -354,6 +376,17 @@
                                         height: 100%;
                                         object-fit: cover;
                                         object-position: 50% 30%;
+                                    }
+                                }
+                                .bottom{
+                                    padding: 0.8em;
+                                    position: absolute;
+                                    z-index: 2;
+                                    bottom: 0;
+                                    background-color: #0d1117;
+                                    color: black;
+                                    span{
+                                        color: rgb(255, 255, 255);
                                     }
                                 }
                             }
@@ -480,6 +513,17 @@
                                     p{
                                         font-size: 0.8rem;
                                         color: black
+                                    }
+                                }
+                                .bottom{
+                                    padding: 0.8em;
+                                    position: absolute;
+                                    z-index: 2;
+                                    bottom: 0;
+                                    background-color: #0d1117;
+                                    color: black;
+                                    span{
+                                        color: rgb(255, 255, 255);
                                     }
                                 }
                             }

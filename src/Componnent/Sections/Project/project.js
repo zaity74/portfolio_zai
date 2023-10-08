@@ -117,7 +117,7 @@ function Project(props) {
                                 <img src={emma} alt='' />
                             </div>
                             <div className='bottom'>
-                                <span>Html, Css, Javascript</span>
+                                <span>React, Sass</span>
                             </div>
                         </div>
                     </Link>
