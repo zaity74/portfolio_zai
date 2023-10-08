@@ -5,6 +5,7 @@ import './skills.scss';
 import React, { useState, useEffect } from "react";
 import { Link} from 'react-router-dom';
 import { AiFillHtml5 } from 'react-icons/ai';
+import { BiLogoTypescript } from 'react-icons/bi';
 import { FaCss3Alt, FaReact, FaVuejs, FaPython, FaPhp, FaNodeJs, FaDocker,
     FaWordpress, FaGitAlt } from 'react-icons/fa';
 import { SiSass, SiJavascript, SiDjango, SiExpress, SiMysql } from 'react-icons/si';
@@ -54,6 +55,16 @@ function Skills(props) {
                             </div>
                             <div className='card-icon'>
                                 <AiFillHtml5 className='icone' />
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='skills-card'>
+                            <div className='info'>
+                                Typescript
+                            </div>
+                            <div className='card-icon'>
+                                <BiLogoTypescript className='icone' />
                             </div>
                         </div>
                     </li>
