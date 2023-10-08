@@ -3,7 +3,7 @@ import drbekri from '../../../images/drbekri2.jpeg';
 import valorum from '../../../images/valorum2.jpeg';
 import basketball from '../../../images/Annecy.jpeg';
 import formation from '../../../images/formations.png';
-import emma from '../../../images/emmaP2.jpeg';
+import emma from '../../../images/emma3.jpeg';
 import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
 
@@ -107,7 +107,7 @@ function Project(props) {
                     </Link>
                 </li>
                 <li>
-                    <Link target='blank' to={'https://emma-pierre-demo.netlify.app/'}>
+                    <Link target='blank' to={'https://emma-pierre.netlify.app/'}>
                         <div className='card card-info'>
                             <div className='top'>
                             <span className='under'>Création et intégration d'un site de bijoux en 4 jours</span>
