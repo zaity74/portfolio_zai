@@ -1,3 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/vg5000');
+
+@keyframes moveBackground {
+    0% {
+      background-position-x: -100%;
+    }
+    100% {
+      background-position-x: 100%;
+    }
+  }
+  @keyframes moveColor {
+    0% {
+      color: transparent;
+    }
+    100% {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
 @media all and (min-width: 1024px){
     #banner {
         position: relative; /* Set position relative for the pseudo-element */
@@ -38,17 +57,20 @@
                 h2{
                     font-size: 3rem;
                     font-weight: 600;
-                    text-transform: uppercase;
+                    text-transform:capitalize;
                     margin-top: 0px !important;
                     margin-bottom: 0px !important;
-                    background: url(https://media0.giphy.com/media/69zkZcvtDiyqVkBMQX/200w.webp?cid=ecf05e47ntl9u8wehsyrp8ziolroj04smvqbmn49y062cx8v&ep=v1_gifs_search&rid=200w.webp&ct=g) repeat;
+                    background: url(https://media3.giphy.com/media/L0IKEmwBKdpdizzL7T/giphy.gif?cid=ecf05e47h83166g850tlsue0jebrttqsbi6o5dlwlve5w3dy&ep=v1_gifs_search&rid=giphy.gif&ct=g) repeat;
                     -webkit-background-clip: text;
                     background-clip: text;
-                    background-position: 180px;
-                    background-position-y: -98px;
-                    color: rgba(79, 131, 198, 0.10);
+                    background-position: -87px;
+                    background-position-y: -54px;
+                    color: rgba(4, 46, 100, 0.2);
+                    font-family: VG5000;
+                    animation: moveColor 6s linear infinite;
                     span{
-                        color:rgba(18, 74, 148, 0.9);
+                        color:#dcdcdc;
+                        text-transform: capitalize;
                     }
                 }
                 .social{

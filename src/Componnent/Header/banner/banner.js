@@ -29,7 +29,7 @@ function Banner(props) {
                 <div className='text-container'>
                     <p className='section-name'>A propos</p>
                     <h2 className='title'>
-                        <span>Hello, recruiter</span> <br></br> I'm Frederic Zai
+                        <span>Hi, recruiter !<br></br></span>I'm frederic Z
                     </h2>
                     <div className='social'>
                         <Link target='blank' to={'https://www.linkedin.com/in/frederic-zai-7a8078192/'}><FaLinkedinIn className='icone' /></Link>
