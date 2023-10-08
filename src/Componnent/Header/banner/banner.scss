@@ -41,12 +41,15 @@
                     text-transform: uppercase;
                     margin-top: 0px !important;
                     margin-bottom: 0px !important;
-                    background: url(https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/200w.webp?cid=ecf05e47ntl9u8wehsyrp8ziolroj04smvqbmn49y062cx8v&ep=v1_gifs_search&rid=200w.webp&ct=g) repeat;
+                    background: url(https://media0.giphy.com/media/69zkZcvtDiyqVkBMQX/200w.webp?cid=ecf05e47ntl9u8wehsyrp8ziolroj04smvqbmn49y062cx8v&ep=v1_gifs_search&rid=200w.webp&ct=g) repeat;
                     -webkit-background-clip: text;
                     background-clip: text;
                     background-position: 180px;
                     background-position-y: -98px;
-                    color: rgba(79, 131, 198, 0.18);
+                    color: rgba(79, 131, 198, 0.10);
+                    span{
+                        color:rgba(18, 74, 148, 0.9);
+                    }
                 }
                 .social{
                     display: flex;
