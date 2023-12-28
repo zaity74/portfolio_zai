@@ -6,6 +6,7 @@ import formation from '../../../images/formations.png';
 import emma from '../../../images/emma3.jpeg';
 import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
+import musicApp from '../../../images/screenMusicApp.jpg';
 
 // Redux import 
 // Hooks
@@ -36,11 +37,27 @@ function Project(props) {
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
                 <li>
+                    <Link target='blank' to={'https://fredmusicapp.netlify.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>Music App demo </span>
+                                <p>Projet scolaire front-end</p>
+                            </div>
+                            <div className='image'>
+                                <img src={musicApp} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, Typescript</span>
+                            </div>
+                        </div>
+                    </Link>    
+                </li>
+                <li>
                     <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>Basketball website demo 2 </span>
-                                <p>Project front-end
+                                <p>Projet front-end
                                 </p>
                             </div>
                             <div className='image'>
@@ -57,7 +74,7 @@ function Project(props) {
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>MaBonneEtoile </span>
-                                <p>Project entreprise, site e-commerce
+                                <p>Projet entreprise, site e-commerce
                                 </p>
                             </div>
                             <div className='image'>
@@ -76,7 +93,7 @@ function Project(props) {
                                 <span className='under'>
                                 Dr BEKRI
                                 </span>
-                                <p>Project entreprise, site vitrine</p>
+                                <p>Projet entreprise, site vitrine</p>
                             </div>
                             <div className='image'>
                                 <img src={drbekri} alt='dr-bekri photo' />
@@ -94,7 +111,7 @@ function Project(props) {
                                 <span className='under'>
                                     Valorum
                                 </span>
-                                <p>Project Bénévole en companie de Yotech, site vitrine et e-commerce <br></br>
+                                <p>Projet Bénévole en companie de Yotech, site vitrine et e-commerce <br></br>
                                 </p>
                             </div>
                             <div className='image'>
@@ -111,7 +128,7 @@ function Project(props) {
                         <div className='card card-info'>
                             <div className='top'>
                             <span className='under'>Création et intégration d'un site de bijoux en 4 jours</span>
-                                <p>Project scolaire, challenge stack</p>
+                                <p>Projet scolaire, challenge stack</p>
                             </div>
                             <div className='image'>
                                 <img src={emma} alt='' />
@@ -127,7 +144,7 @@ function Project(props) {
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>Basketball website demo </span>
-                                <p>Project full stack e-commerce
+                                <p>Projet full stack e-commerce
                                 </p>
                             </div>
                             <div className='image'>
@@ -154,7 +171,7 @@ function Project(props) {
                                 </p>
                             </div>
                             <div className='top'>
-                                <p>Project d'entreprise</p>
+                                <p>Projet d'entreprise</p>
                                 <span className='under'>Modules de gestion de formations</span>
                             </div>
                             <div className='image'>
