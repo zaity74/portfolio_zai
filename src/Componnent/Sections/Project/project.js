@@ -6,7 +6,7 @@ import formation from '../../../images/formations.png';
 import emma from '../../../images/emma3.jpeg';
 import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
-import musicApp from '../../../images/screenMusicApp.jpg';
+import musicApp from '../../../images/screenMusic.jpg';
 
 // Redux import 
 // Hooks
