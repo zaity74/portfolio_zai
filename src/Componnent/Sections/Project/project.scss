@@ -45,11 +45,15 @@
                         grid-column-end: span 3;
                         transform: scale(1);
                         transition: 0.7s ease-in-out;
+                        overflow: hidden;
                         &:hover{
                             transform: scale(1.08);
                             a .card .overlay{
                                 top: 0px;
                                 display: flex;
+                            }
+                            a .card .top p{
+                                display: block;
                             }
                         }
                         a{
@@ -83,6 +87,8 @@
                                         color: black;
                                         margin-top: 0px !important;
                                         margin-bottom: 0px !important;
+                                        display: none;
+                                        transition: 1.2s ease-in-out;
                                     }
                                     .under{
                                         font-size: 0.9rem;

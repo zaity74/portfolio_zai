@@ -6,7 +6,8 @@ import formation from '../../../images/formations.png';
 import emma from '../../../images/emma3.jpeg';
 import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
-import musicApp from '../../../images/screenMusic.jpg';
+import musicApp from '../../../images/musicAppScreen.png';
+import pokeAPI from '../../../images/pokeAPIscreen.png';
 
 // Redux import 
 // Hooks
@@ -37,11 +38,33 @@ function Project(props) {
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
                 <li>
+                    <Link target='blank' to={'https://pokemonschoolapp.netlify.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>PokeAPi app demo </span>
+                                <p>Projet scolaire front-end, création d'une 
+                                    une application web React qui interagit avec une API Pokémons, 
+                                    fournissant des détails sur les différentes espèces de Pokémon, y compris leurs noms, types, descriptions et statistiques.
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={pokeAPI} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, PokeAPI restful API</span>
+                            </div>
+                        </div>
+                    </Link>    
+                </li>
+                <li>
                     <Link target='blank' to={'https://fredmusicapp.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>Music App demo </span>
-                                <p>Projet scolaire front-end</p>
+                                <p>
+                                Projet front-end scolaire utilisant React et TypeScript, qui consiste en une application de musique personnalisée. Cette application offre une sélection de musique ajoutée manuellement. 
+                                Avec cette application, vous pouvez démarrer, arrêter et changer les pistes de musique à volonté. De plus, celle ci dispose d'une fonctionnalité de lecture en boucle, permettant à l'utilisateur d'écouter sa musique préférée de manière répétée.
+                                </p>
                             </div>
                             <div className='image'>
                                 <img src={musicApp} alt='basket-photo' />
@@ -56,8 +79,11 @@ function Project(props) {
                     <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
-                                <span className='under'>Basketball website demo 2 </span>
-                                <p>Projet front-end
+                                <span className='under'>Basketball website demo  </span>
+                                <p>
+                                    Création d'un projet front-end en utilisant React, qui est une landing page axée sur le basketball et 
+                                    inspirée du club de basket SwissCentral Basket afin d'ameliorer l'existant : <Link to={'https://www.swisscentralbasketball.ch/'}>Ici</Link>. 
+                                    Cette page d'accueil comprend plusieurs éléments, notamment un carrousel automatique, des sections pour les articles, les matchs, les classements, des cartes des joueurs et une section dédiée aux sponsors.
                                 </p>
                             </div>
                             <div className='image'>
@@ -74,7 +100,10 @@ function Project(props) {
                         <div className='card'>
                             <div className='top'>
                                 <span className='under'>MaBonneEtoile </span>
-                                <p>Projet entreprise, site e-commerce
+                                <p> J'ai participé à un projet d'entreprise consistant à développer 
+                                    un site e-commerce pour la société MaBonneEtoile. 
+                                    Ce site a été construit en utilisant le système de gestion de contenu (CMS) Odoo, avec l'intégration d'une maquette graphique. 
+                                    Les fonctionnalités de ce site comprennent la création d'une boutique en ligne, la gestion des paiements, ainsi que la mise en place d'un système de connexion pour les utilisateurs.
                                 </p>
                             </div>
                             <div className='image'>
@@ -93,7 +122,9 @@ function Project(props) {
                                 <span className='under'>
                                 Dr BEKRI
                                 </span>
-                                <p>Projet entreprise, site vitrine</p>
+                                <p>
+                                Projet d'entreprise visant à développer un site vitrine pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site a été construit à l'aide du système de gestion de contenu (CMS) Odoo, avec l'intégration d'une maquette graphique personnalisée. Les fonctionnalités de ce site comprennent des pages de présentation détaillée, une page de contact pour faciliter la communication avec les patients, ainsi qu'une page de blog pour partager des articles et des informations pertinentes dans le domaine de la gynécologie.
+                                </p>
                             </div>
                             <div className='image'>
                                 <img src={drbekri} alt='dr-bekri photo' />
