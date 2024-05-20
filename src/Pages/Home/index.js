@@ -3,7 +3,7 @@ import Banner from "../../Componnent/Header/banner/banner";
 import Skills from "../../Componnent/Sections/Skills/skills";
 import Project from "../../Componnent/Sections/Project/project";
 import { Link, useParams } from 'react-router-dom';
-import cvFred from '../../images/CV_ZaiFr_AlternanceStage.pdf';
+import cvFred from '../../images/Cv_FZaï_versionFr.pdf';
 import "./index.scss";
 // Redux import 
 
