@@ -1,7 +1,7 @@
 import './project.scss';
 import drbekri from '../../../images/drbekri2.jpeg';
 import valorum from '../../../images/valorum2.jpeg';
-import basketball from '../../../images/Annecy.jpeg';
+import basketball from '../../../images/swissCentralScreen2.png';
 import formation from '../../../images/formations.png';
 import emma from '../../../images/emma3.jpeg';
 import basket2 from '../../../images/Basket3.jpeg';
