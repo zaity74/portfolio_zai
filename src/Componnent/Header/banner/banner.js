@@ -36,8 +36,7 @@ function Banner(props) {
                         <Link target='blank' to={'https://github.com/zaity74'}><BsGithub className='icone' /></Link>
                     </div>
                     <h3>Développeur full-stack Junior 🧑🏾‍💻</h3>
-                    <p>Récemment dimplômé d'un bachelor 3 en informatique, je suis actuellement à la recherche d'un stage de 12 mois en tant 
-                        que développeur full-stack 
+                    <p>Récemment diplômé d'un Bachelor en informatique, je suis actuellement à la recherche d'un stage de 12 mois en tant que développeur full-stack pour finaliser mon master. Passionné par le code, je suis particulièrement motivé par la création d'applications fonctionnelles répondant à des besoins métiers spécifiques. Mon ambition est de devenir un développeur confirmé, et je suis déterminé à acquérir les compétences et l'expérience nécessaires pour y parvenir. Coder est pour moi bien plus qu'une simple activité professionnelle, c'est une véritable passion quotidienne qui me pousse à m'améliorer constamment et à innover.
                     </p>
                 </div>
                 <div className='image-hero'>

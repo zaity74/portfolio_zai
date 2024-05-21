@@ -37,6 +37,7 @@ function Project(props) {
             <div className="text-container">
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
+                {/* 1er position */}
                 <li>
                     <Link target='blank' to={'https://pokemonschoolapp.netlify.app/'}>
                         <div className='card'>
@@ -56,65 +57,25 @@ function Project(props) {
                         </div>
                     </Link>    
                 </li>
+                {/* 2eme position */}
                 <li>
-                    <Link target='blank' to={'https://fredmusicapp.netlify.app/'}>
+                    <Link target='blank' to={'https://basketball-demo.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
-                                <span className='under'>Music App demo </span>
-                                <p>
-                                Projet front-end scolaire utilisant React et TypeScript, qui consiste en une application de musique personnalisée. Cette application offre une sélection de musique ajoutée manuellement. 
-                                Avec cette application, vous pouvez démarrer, arrêter et changer les pistes de musique à volonté. De plus, celle ci dispose d'une fonctionnalité de lecture en boucle, permettant à l'utilisateur d'écouter sa musique préférée de manière répétée.
+                                <span className='under'>Basketball website demo </span>
+                                <p>Projet full stack e-commerce
                                 </p>
                             </div>
                             <div className='image'>
-                                <img src={musicApp} alt='basket-photo' />
+                                <img src={basketball} alt='basket-photo' />
                             </div>
                             <div className='bottom'>
-                                <span>React, Typescript</span>
-                            </div>
-                        </div>
-                    </Link>    
-                </li>
-                <li>
-                    <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
-                        <div className='card'>
-                            <div className='top'>
-                                <span className='under'>Basketball website demo  </span>
-                                <p>
-                                    Création d'un projet front-end en utilisant React, qui est une landing page axée sur le basketball et 
-                                    inspirée du club de basket SwissCentral Basket afin d'ameliorer l'existant : <Link to={'https://www.swisscentralbasketball.ch/'}>Ici</Link>. 
-                                    Cette page d'accueil comprend plusieurs éléments, notamment un carrousel automatique, des sections pour les articles, les matchs, les classements, des cartes des joueurs et une section dédiée aux sponsors.
-                                </p>
-                            </div>
-                            <div className='image'>
-                                <img src={basket2} alt='basket-photo' />
-                            </div>
-                            <div className='bottom'>
-                                <span>React, Sass</span>
+                                <span>React, NodeJs, Express, Mangodb</span>
                             </div>
                         </div>
                     </Link>
                 </li>
-                <li>
-                    <Link target='blank' to={'http://www.mabonneetoile.eco/squiz'}>
-                        <div className='card'>
-                            <div className='top'>
-                                <span className='under'>MaBonneEtoile </span>
-                                <p> J'ai participé à un projet d'entreprise consistant à développer 
-                                    un site e-commerce pour la société MaBonneEtoile. 
-                                    Ce site a été construit en utilisant le système de gestion de contenu (CMS) Odoo, avec l'intégration d'une maquette graphique. 
-                                    Les fonctionnalités de ce site comprennent la création d'une boutique en ligne, la gestion des paiements, ainsi que la mise en place d'un système de connexion pour les utilisateurs.
-                                </p>
-                            </div>
-                            <div className='image'>
-                                <img src={mabonneetoile} alt='basket-photo' />
-                            </div>
-                            <div className='bottom'>
-                                <span>Odoo</span>
-                            </div>
-                        </div>
-                    </Link>
-                </li>
+                {/* 3eme position */}
                 <li>
                     <Link target='blank' to={'https://www.drbekri-gynecologue.ch/'}>
                         <div className='card'>
@@ -135,6 +96,7 @@ function Project(props) {
                         </div>
                     </Link>
                 </li>
+                {/* 4eme position */}
                 <li>
                     <Link target='blank' to={'https://www.123goldexpert.ch/'}>
                         <div className='card'>
@@ -154,6 +116,48 @@ function Project(props) {
                         </div>
                     </Link>
                 </li>
+                {/* 5eme position */}
+                <li>
+                    <Link target='blank' to={'http://www.mabonneetoile.eco/squiz'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>MaBonneEtoile </span>
+                                <p> J'ai participé à un projet d'entreprise consistant à développer 
+                                    un site e-commerce pour la société MaBonneEtoile. 
+                                    Ce site a été construit en utilisant le système de gestion de contenu (CMS) Odoo, avec l'intégration d'une maquette graphique. 
+                                    Les fonctionnalités de ce site comprennent la création d'une boutique en ligne, la gestion des paiements, ainsi que la mise en place d'un système de connexion pour les utilisateurs.
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={mabonneetoile} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>Odoo</span>
+                            </div>
+                        </div>
+                    </Link>
+                </li>
+                {/* 6eme position */}
+                <li>
+                    <Link target='blank' to={'https://fredmusicapp.netlify.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>Music App demo </span>
+                                <p>
+                                Projet front-end scolaire utilisant React et TypeScript, qui consiste en une application de musique personnalisée. Cette application offre une sélection de musique ajoutée manuellement. 
+                                Avec cette application, vous pouvez démarrer, arrêter et changer les pistes de musique à volonté. De plus, celle ci dispose d'une fonctionnalité de lecture en boucle, permettant à l'utilisateur d'écouter sa musique préférée de manière répétée.
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={musicApp} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, Typescript</span>
+                            </div>
+                        </div>
+                    </Link>    
+                </li>
+                {/* 7eme position */}
                 <li>
                     <Link target='blank' to={'https://emma-pierre.netlify.app/'}>
                         <div className='card card-info'>
@@ -170,23 +174,28 @@ function Project(props) {
                         </div>
                     </Link>
                 </li>
+                {/* 8eme position */}
                 <li>
-                    <Link target='blank' to={'https://basketball-demo.netlify.app/'}>
+                    <Link target='blank' to={'https://swissbasketdemo.netlify.app/'}>
                         <div className='card'>
                             <div className='top'>
-                                <span className='under'>Basketball website demo </span>
-                                <p>Projet full stack e-commerce
+                                <span className='under'>Basketball website demo  </span>
+                                <p>
+                                    Création d'un projet front-end en utilisant React, qui est une landing page axée sur le basketball et 
+                                    inspirée du club de basket SwissCentral Basket afin d'ameliorer l'existant : <Link to={'https://www.swisscentralbasketball.ch/'}>Ici</Link>. 
+                                    Cette page d'accueil comprend plusieurs éléments, notamment un carrousel automatique, des sections pour les articles, les matchs, les classements, des cartes des joueurs et une section dédiée aux sponsors.
                                 </p>
                             </div>
                             <div className='image'>
-                                <img src={basketball} alt='basket-photo' />
+                                <img src={basket2} alt='basket-photo' />
                             </div>
                             <div className='bottom'>
-                                <span>React, NodeJs, Express, Mangodb</span>
+                                <span>React, Sass</span>
                             </div>
                         </div>
                     </Link>
                 </li>
+                {/* 9eme position */}
                 <li>
                     <Link to={'#'}>
                         <div className='card'>
