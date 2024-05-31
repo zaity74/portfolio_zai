@@ -8,6 +8,7 @@ import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
 import musicApp from '../../../images/musicAppScreen.png';
 import pokeAPI from '../../../images/pokeAPIscreen.png';
+import JOPredictionApp from '../../../images/scrrenJO2024.png';
 
 // Redux import 
 // Hooks
@@ -37,6 +38,27 @@ function Project(props) {
             <div className="text-container">
               <p className="section-name">Mes projets</p>
               <ul className='project-list'>
+                {/* 0er position */}
+                <li>
+                    <Link target='blank' to={'https://client-lemon-chi.vercel.app/'}>
+                        <div className='card'>
+                            <div className='top'>
+                                <span className='under'>2024 Olympics games prediction Web App </span>
+                                <p>Projet scolaire sur la conception d'une web application proposant une visualisation sur 
+                                    la performance des athlètes, les résultats par pays et les tendances historiques. 
+                                    Et quelques prediction sur les jeux olympiques 2024 sur les top 10 des pays au JO 2024
+                                    et une prediction des médailles pour la france
+                                </p>
+                            </div>
+                            <div className='image'>
+                                <img src={JOPredictionApp} alt='basket-photo' />
+                            </div>
+                            <div className='bottom'>
+                                <span>React, Flask, Python, PostgreSql</span>
+                            </div>
+                        </div>
+                    </Link>    
+                </li>
                 {/* 1er position */}
                 <li>
                     <Link target='blank' to={'https://pokemonschoolapp.netlify.app/'}>
