@@ -8,7 +8,7 @@ import basket2 from '../../../images/Basket3.jpeg';
 import mabonneetoile from '../../../images/yotech.jpeg';
 import musicApp from '../../../images/musicAppScreen.png';
 import pokeAPI from '../../../images/pokeAPIscreen.png';
-import JOPredictionApp from '../../../images/scrrenJO2024.png';
+import JOPredictionApp from "../../../images/screenJO2024.png";
 
 // Redux import 
 // Hooks
