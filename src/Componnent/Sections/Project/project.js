@@ -133,7 +133,7 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://basketball-demo.netlify.app/"}
+                  to={"https://youtubetoplaylist.netlify.app/"}
                 >
                   <div className="card">
                     <div className="top">
