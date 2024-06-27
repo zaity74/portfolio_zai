@@ -4,6 +4,7 @@ import Skills from "../../Componnent/Sections/Skills/skills";
 import Project from "../../Componnent/Sections/Project/project";
 import { Link, useParams } from 'react-router-dom';
 import cvFred from '../../images/Cv_FZaï_versionFr.pdf';
+import CV from '../../images/Cv_ZaiFrederic2024.pdf';
 import "./index.scss";
 // Redux import 
 
@@ -31,7 +32,7 @@ function Home(props) {
           <div className="container">
             <ul>
               <li>
-                <a className="link" href={cvFred} download>
+                <a className="link" href={CV} download>
                   Télécharger mon cv
                 </a>
               </li>
