@@ -6,6 +6,7 @@ import { Link, useParams } from 'react-router-dom';
 import cvFred from '../../images/Cv_FZaï_versionFr.pdf';
 import CV from '../../images/Cv_ZaiFrederic2024.pdf';
 import "./index.scss";
+import BackgroundBody from "../../Componnent/Background/background";
 // Redux import 
 
 // Hooks
@@ -25,6 +26,7 @@ function Home(props) {
   
     return (
       <>
+      <BackgroundBody />
       <div className='home-section'>
         <Navbar />
         <Banner />

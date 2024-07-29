@@ -1,0 +1,55 @@
+.bgd-body {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    background-color: none !important;
+    margin: auto;
+}
+
+.bgd-body .row-container {
+    height: 100%;
+}
+
+.bgd-body .grid {
+    display: grid;
+    grid-template-columns: repeat(38, 80px);
+    /* 18 colonnes égales */
+    grid-template-rows: repeat(18, 80px);
+    /* 18 rangées égales */
+    width: 100%;
+    height: 100%;
+    /* gap: 12px; */
+}
+
+/* Supprimer la bordure droite des dernières cellules de chaque rangée */
+.bgd-body .cell:nth-child(18n) {
+    border-right: none;
+}
+
+/* Supprimer la bordure inférieure des cellules de la dernière rangée */
+.bgd-body .cell:nth-last-child(-n+18) {
+    border-bottom: none;
+}
+
+.bgd-body .cell {
+    border-right: 1px dotted rgba(218, 218, 218, 0.7);
+    border-bottom: 0.7px dotted rgba(235, 235, 235, 0.7);
+    /* opacity: 0; */
+    mix-blend-mode: hard-light;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    /* background: #fff989; */
+    /* Initialiser la hauteur à 0 pour l'animation */
+}
+
+
+.bgd-body .cell.animate {
+    height: 100%;
+    /* Augmenter la hauteur pour afficher la ligne */
+    transition: height 1.3s ease-in-out;
+    /* Ajouter une transition pour l'animation */
+}

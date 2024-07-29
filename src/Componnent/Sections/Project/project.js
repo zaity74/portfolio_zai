@@ -11,6 +11,7 @@ import pokeAPI from "../../../images/pokeAPIscreen.png";
 import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
+import VueApp from '../../../images/ScreenAnnonce.png';
 
 // Redux import
 // Hooks
@@ -79,6 +80,30 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>React, Flask, Python, PostgreSql</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 0er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">
+                        Online courses web App{" "}
+                      </span>
+                      <p>
+                        Projet scolaire visant à développer une application complète pour la gestion des cours en ligne. L'application permet aux utilisateurs de réserver des sessions de cours avec des instructeurs enregistrés sur la base d'un thème spécifique. Les formateurs peuvent s'inscrire, enregistrer leur compte et publier des annonces sur leurs cours.
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={VueApp} alt="vuejsapp-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Vuejs, Nodejs, Express, MangoDB</span>
                     </div>
                   </div>
                 </Link>

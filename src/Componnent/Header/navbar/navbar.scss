@@ -10,7 +10,8 @@
         transition: all 0.13s ease-in-out;
         border-bottom: 0.7px #8f8f8f solid;
         display: flex;
-        background-color: #0D1117;
+        z-index: 3;
+        background-color: #ffffff;
         .container{
             margin: auto;
             width: 90%;
@@ -26,7 +27,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                border-right: 0.7px rgb(255, 255, 255) solid;
+                border-right: 0.7px rgba(2, 15, 32, 0.2) solid;
                 padding-left: 1em;
                 padding-right: 1em;
                 color: #4f83c6;
@@ -39,31 +40,30 @@
                 p{
                     margin-bottom: 0px !important;
                     margin-top: 0px !important;
-                    color: rgb(254, 254, 254);
+                    color: rgb(17, 17, 17);
                 }
             }
             .login-container{
                 text-align: center;
                 justify-self: flex-end;
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 z-index: 10;
                 top: 0px;
                 flex-grow: 2;
                 //box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 16px -4px;
-                background-color: #0D1117;
+                background-color: #ffffff;
                 list-style-type: none;
                 height: 100%;
         
                 .connexion{
                     height: 100%;
-                    padding-left: 0.6rem;
-                    padding-right: 0.6rem;
+                    padding-left: 1.2rem;
+                    padding-right: 1.2rem;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 50%;
+                    // width: 50%;
                     gap: 3px;
                     border-right: 0.7px rgb(255, 255, 255) solid;
                     &:hover{
@@ -75,7 +75,7 @@
                     .link{
                         width: 100%;
                         margin: 0px;
-                        color: rgb(255, 255, 255);
+                        color: rgba(0, 31, 71, 0.8);
                         font-size: 1.3rem;
                         line-height: 1.3;
                         font-weight: 700;
@@ -97,11 +97,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 50%;
-                    padding-left: 0.6rem;
-                    padding-right: 0.6rem;
-                    gap: 3px;
-                    border-right: 0.7px rgb(255, 255, 255) solid;
+                    // width: 50%;
+                    padding-left: 1.2rem;
+                    padding-right: 1.2rem;
+                    // gap: 3px;
+                    border-right: 0.7px rgba(2, 15, 32, 0.2) solid;
                     &:hover{
                         background-color: rgba(255, 255, 255, 1);
                         .link{
@@ -111,7 +111,7 @@
                     .link{
                         width: 100%;
                         margin: 0px;
-                        color: rgb(255, 255, 255);
+                        color: rgba(0, 31, 71, 0.8);
                         font-size: 0.8rem;
                         line-height: 1.3;
                         font-weight: 700;

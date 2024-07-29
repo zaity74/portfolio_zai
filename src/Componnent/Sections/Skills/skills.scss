@@ -6,8 +6,8 @@
         justify-content: center;
         align-items: center;
         border-bottom: 0.7px #c5a459 solid;
-        background-color: #0D1117;
-        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 40%, rgba(14, 96, 248, 0.3) 80%);
+        // background-color: #0D1117;
+        // background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 40%, rgba(14, 96, 248, 0.3) 80%);
         .container{
             width: 90%;
             display: flex;
@@ -21,8 +21,9 @@
                     display: inline-block;
                     text-transform: uppercase;
                     font-size: 14px;
-                    color: #4f83c6;
-                    background-color: #6c5ce71a;
+                    color: #8a05ff;
+                    background-color: #ffffff1a;
+                    border: 1px rgb(201, 201, 201) solid;
                     padding: 5px 10px;
                     -webkit-border-radius: 4px;
                     -moz-border-radius: 4px;
@@ -32,8 +33,8 @@
                     font-weight: 500;
                 }
                 p{
-                    font-size: 1.1rem;
-                    color: white;
+                    font-size: 1rem;
+                    color: rgb(0, 0, 0);
                 }
                 .skills-filter{
                     width: 100%;
