@@ -11,7 +11,7 @@ import pokeAPI from "../../../images/pokeAPIscreen.png";
 import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
-import VueApp from '../../../images/screenAnnonce.png';
+import VueApp from "../../../images/screenAnnonce.png";
 
 // Redux import
 // Hooks
@@ -55,85 +55,6 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
-              {/* 0er position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://client-lemon-chi.vercel.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">
-                        2024 Olympics games prediction Web App{" "}
-                      </span>
-                      <p>
-                        Projet scolaire sur la conception d'une web application
-                        proposant une visualisation sur la performance des
-                        athlètes, les résultats par pays et les tendances
-                        historiques. Et quelques prediction sur les jeux
-                        olympiques 2024 sur les top 10 des pays au JO 2024 et
-                        une prediction des médailles pour la france
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={JOPredictionApp} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, Flask, Python, PostgreSql</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 0er position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">
-                        Online courses web App{" "}
-                      </span>
-                      <p>
-                        Projet scolaire visant à développer une application complète pour la gestion des cours en ligne. L'application permet aux utilisateurs de réserver des sessions de cours avec des instructeurs enregistrés sur la base d'un thème spécifique. Les formateurs peuvent s'inscrire, enregistrer leur compte et publier des annonces sur leurs cours.
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={VueApp} alt="vuejsapp-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>Vuejs, Nodejs, Express, MangoDB</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 1er position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://pokemonschoolapp.netlify.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">PokeAPi app demo </span>
-                      <p>
-                        Projet scolaire front-end, création d'une une
-                        application web React qui interagit avec une API
-                        Pokémons, fournissant des détails sur les différentes
-                        espèces de Pokémon, y compris leurs noms, types,
-                        descriptions et statistiques.
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={pokeAPI} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, PokeAPI restful API</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
               {/* 2eme position */}
               <li>
                 <Link
@@ -147,32 +68,6 @@ function Project(props) {
                     </div>
                     <div className="image">
                       <img src={basketball} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, NodeJs, Express, Mangodb</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 3eme position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://youtubetoplaylist.netlify.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Youtube vidéo scrapper </span>
-                      <p>
-                        Projet d'école Full stack : Création d'une application
-                        web permettant de récupérer des fichiers audio MP3 à
-                        partir de vidéos YouTube via leur URL, écouter des
-                        listes de lecture, et créer des playlists
-                        personnalisées.
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={YoutubeApp} alt="basket-photo" />
                     </div>
                     <div className="bottom">
                       <span>React, NodeJs, Express, Mangodb</span>
@@ -224,6 +119,117 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>Odoo, Python</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 0er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://client-lemon-chi.vercel.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">
+                        2024 Olympics games prediction Web App{" "}
+                      </span>
+                      <p>
+                        Projet scolaire sur la conception d'une web application
+                        proposant une visualisation sur la performance des
+                        athlètes, les résultats par pays et les tendances
+                        historiques. Et quelques prediction sur les jeux
+                        olympiques 2024 sur les top 10 des pays au JO 2024 et
+                        une prediction des médailles pour la france
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={JOPredictionApp} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, Flask, Python, PostgreSql</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 0er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={
+                    "https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"
+                  }
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Online courses web App </span>
+                      <p>
+                        Projet scolaire visant à développer une application
+                        complète pour la gestion des cours en ligne.
+                        L'application permet aux utilisateurs de réserver des
+                        sessions de cours avec des instructeurs enregistrés sur
+                        la base d'un thème spécifique. Les formateurs peuvent
+                        s'inscrire, enregistrer leur compte et publier des
+                        annonces sur leurs cours.
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={VueApp} alt="vuejsapp-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Vuejs, Nodejs, Express, MangoDB</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 1er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://pokemonschoolapp.netlify.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">PokeAPi app demo </span>
+                      <p>
+                        Projet scolaire front-end, création d'une une
+                        application web React qui interagit avec une API
+                        Pokémons, fournissant des détails sur les différentes
+                        espèces de Pokémon, y compris leurs noms, types,
+                        descriptions et statistiques.
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={pokeAPI} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, PokeAPI restful API</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 3eme position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://youtubetoplaylist.netlify.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Youtube vidéo scrapper </span>
+                      <p>
+                        Projet d'école Full stack : Création d'une application
+                        web permettant de récupérer des fichiers audio MP3 à
+                        partir de vidéos YouTube via leur URL, écouter des
+                        listes de lecture, et créer des playlists
+                        personnalisées.
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={YoutubeApp} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, NodeJs, Express, Mangodb</span>
                     </div>
                   </div>
                 </Link>
