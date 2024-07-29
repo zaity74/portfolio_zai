@@ -11,7 +11,7 @@ import pokeAPI from "../../../images/pokeAPIscreen.png";
 import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
-import VueApp from '../../../images/screenAnnonce.png';
+import VueApp from "../../../images/screenAnnonce.png";
 
 // Redux import
 // Hooks
@@ -55,6 +55,74 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 2eme position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://basketball-demo.netlify.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Basketball website demo </span>
+                      <p>Projet full stack e-commerce</p>
+                    </div>
+                    <div className="image">
+                      <img src={basketball} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, NodeJs, Express, Mangodb</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 3eme position */}
+              <li>
+                <Link target="blank" to={"https://www.drbekri-gynecologue.ch/"}>
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Dr BEKRI</span>
+                      <p>
+                        Projet d'entreprise visant à développer un site vitrine
+                        pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site
+                        a été construit à l'aide du système de gestion de
+                        contenu (CMS) Odoo, avec l'intégration d'une maquette
+                        graphique personnalisée. Les fonctionnalités de ce site
+                        comprennent des pages de présentation détaillée, une
+                        page de contact pour faciliter la communication avec les
+                        patients, ainsi qu'une page de blog pour partager des
+                        articles et des informations pertinentes dans le domaine
+                        de la gynécologie.
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={drbekri} alt="dr-bekri photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Odoo</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 4eme position */}
+              <li>
+                <Link target="blank" to={"https://www.123goldexpert.ch/"}>
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Valorum</span>
+                      <p>
+                        Projet Bénévole en companie de Yotech, site vitrine et
+                        e-commerce <br></br>
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={valorum} alt="" />
+                    </div>
+                    <div className="bottom">
+                      <span>Odoo, Python</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 0er position */}
               <li>
                 <Link
@@ -88,15 +156,21 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"}
+                  to={
+                    "https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"
+                  }
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under">
-                        Online courses web App{" "}
-                      </span>
+                      <span className="under">Online courses web App </span>
                       <p>
-                        Projet scolaire visant à développer une application complète pour la gestion des cours en ligne. L'application permet aux utilisateurs de réserver des sessions de cours avec des instructeurs enregistrés sur la base d'un thème spécifique. Les formateurs peuvent s'inscrire, enregistrer leur compte et publier des annonces sur leurs cours.
+                        Projet scolaire visant à développer une application
+                        complète pour la gestion des cours en ligne.
+                        L'application permet aux utilisateurs de réserver des
+                        sessions de cours avec des instructeurs enregistrés sur
+                        la base d'un thème spécifique. Les formateurs peuvent
+                        s'inscrire, enregistrer leur compte et publier des
+                        annonces sur leurs cours.
                       </p>
                     </div>
                     <div className="image">
@@ -134,26 +208,6 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 2eme position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://basketball-demo.netlify.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Basketball website demo </span>
-                      <p>Projet full stack e-commerce</p>
-                    </div>
-                    <div className="image">
-                      <img src={basketball} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, NodeJs, Express, Mangodb</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
               {/* 3eme position */}
               <li>
                 <Link
@@ -176,49 +230,6 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>React, NodeJs, Express, Mangodb</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 3eme position */}
-              <li>
-                <Link target="blank" to={"https://www.drbekri-gynecologue.ch/"}>
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Dr BEKRI</span>
-                      <p>
-                        Projet d'entreprise visant à développer un site vitrine
-                        pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site
-                        a été construit à l'aide du système de gestion de
-                        contenu (CMS) Odoo, avec l'intégration d'une maquette
-                        graphique personnalisée.
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={drbekri} alt="dr-bekri photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>Odoo</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 4eme position */}
-              <li>
-                <Link target="blank" to={"https://www.123goldexpert.ch/"}>
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Valorum</span>
-                      <p>
-                        Projet Bénévole en companie de Yotech, site vitrine et
-                        e-commerce <br></br>
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={valorum} alt="" />
-                    </div>
-                    <div className="bottom">
-                      <span>Odoo, Python</span>
                     </div>
                   </div>
                 </Link>
