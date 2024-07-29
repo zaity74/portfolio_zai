@@ -186,7 +186,7 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://github.com/zaity74/pokemon_project"}
+                  to={"https://pokemonschoolapp.netlify.app/"}
                 >
                   <div className="card">
                     <div className="top">
