@@ -6,8 +6,8 @@
         justify-content: center;
         align-items: center;
         border-bottom: 0.7px #8f8f8f solid;
-        // background-color: #0D1117;
-        // background-image: linear-gradient(30deg,rgba(13, 17, 23,0.6) 60%, rgba(14, 96, 248, 0.2) 80%);
+        background-color: #f6faff;
+        background-image: linear-gradient(30deg,rgba(251, 253, 255, 0.9) 100%, rgba(255, 255, 255, 0.9) 100%);
         .container{
             width: 90%;
             padding-top: 4em;
@@ -21,8 +21,9 @@
                     display: inline-block;
                     text-transform: uppercase;
                     font-size: 14px;
-                    color: #4f83c6;
-                    background-color: #6c5ce71a;
+                    color: #8a05ff;
+                    background-color: #ffffff1a;
+                    border: 1px rgb(201, 201, 201) solid;
                     padding: 5px 10px;
                     -webkit-border-radius: 4px;
                     -moz-border-radius: 4px;
@@ -63,11 +64,14 @@
                                 flex-direction: column;
                                 width: auto;
                                 height: 302px;
-                                padding: 0.4em;
+                                // padding: 0.4em;
                                 background-color: white;
                                 position: relative;
-                                box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+                                // box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
                                 transition: 1.8s ease-in-out;
+                                border:#639fee 0.7px solid;
+                                border-radius: 0.3rem;
+                                box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
                                 .top{
                                     display: flex;
                                     flex-direction: column;

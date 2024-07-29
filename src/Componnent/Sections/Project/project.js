@@ -11,7 +11,7 @@ import pokeAPI from "../../../images/pokeAPIscreen.png";
 import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
-import VueApp from '../../../images/ScreenAnnonce.png';
+import VueApp from '../../../images/screenAnnonce.png';
 
 // Redux import
 // Hooks

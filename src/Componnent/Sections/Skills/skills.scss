@@ -6,8 +6,10 @@
         justify-content: center;
         align-items: center;
         border-bottom: 0.7px #c5a459 solid;
-        // background-color: #0D1117;
-        // background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 40%, rgba(14, 96, 248, 0.3) 80%);
+        background-color: #0D1117;
+        background-image: linear-gradient(120deg,rgba(13, 17, 23,0.6) 40%, rgba(14, 96, 248, 0.3) 80%);
+        // background-color: #f6faff;
+        // background-image: linear-gradient(30deg,rgba(251, 253, 255, 0.9) 100%, rgba(255, 255, 255, 0.9) 100%);
         .container{
             width: 90%;
             display: flex;
@@ -43,13 +45,17 @@
                     list-style-type: none;
                     padding-top: 0.8em;
                     padding-bottom: 0.8em;
-                    padding-left: 0px !important;  
+                    padding-left: 0px !important; 
                     .selected{
                         background-color: #004182;
                         color: white;
                         padding-left: 1.08rem!important;
                         padding-right: 1.08rem!important;
                         border-radius: 1.6rem;
+                        p{
+                            font-weight: 600;
+                            color: rgb(255, 255, 255) !important;
+                        }
 
                     }  
                     .filter{
@@ -60,9 +66,12 @@
                         gap: 8px;
                         padding-right: 0.8em;
                         padding-left: 0.8em;
+                        // border: #4f83c6 1px solid;
+                        border: 1px #acacac solid;
+                        border-radius: 1.6rem;
                         p{
                             font-weight: 600;
-                            color: white;
+                            color: rgb(61, 61, 61);
 
                         }
                         .select{
@@ -70,6 +79,7 @@
                             height: 8px;
                             border: 0.8px #8f8f8f solid;
                             display: none;
+                            color: white;
                         }
                     }
                 }
@@ -103,6 +113,7 @@
                             box-shadow: 0 0 1em rgba(0,0,0,.1);
                             border-radius: 12px;
                             position: relative;
+                            border: 1px #acacac solid;
                             &:hover{
                                 .info{
                                     display: flex;
@@ -116,7 +127,7 @@
                                 position: absolute;
                                 top: -120px;
                                 min-width: max-content;
-                                color: #ffffff;
+                                color: #8a05ff;
                                 font-size: 15px;
                                 padding: 5px 10px;
                                 border-radius: 4px;
@@ -140,7 +151,7 @@
                                 }
                                 .icone{
                                     font-size: 3em;
-                                    color: #ffffff;
+                                    color: #004182;
                                 }
                             }
                         }
