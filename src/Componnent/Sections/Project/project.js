@@ -191,12 +191,7 @@ function Project(props) {
                         pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site
                         a été construit à l'aide du système de gestion de
                         contenu (CMS) Odoo, avec l'intégration d'une maquette
-                        graphique personnalisée. Les fonctionnalités de ce site
-                        comprennent des pages de présentation détaillée, une
-                        page de contact pour faciliter la communication avec les
-                        patients, ainsi qu'une page de blog pour partager des
-                        articles et des informations pertinentes dans le domaine
-                        de la gynécologie.
+                        graphique personnalisée.
                       </p>
                     </div>
                     <div className="image">
