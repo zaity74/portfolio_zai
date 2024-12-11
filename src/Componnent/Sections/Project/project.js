@@ -58,6 +58,26 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://elezov-renovation.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Elezov rennovation </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={Elezov} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP, Elementor</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 1ère position */}
               <li>
                 <Link
@@ -114,26 +134,6 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>Wordpress, PHP, Elementor</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 3eme position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://basketball-demo.netlify.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Basketball website demo </span>
-                      <p>Projet full stack e-commerce</p>
-                    </div>
-                    <div className="image">
-                      <img src={basketball} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, NodeJs, Express, Mangodb</span>
                     </div>
                   </div>
                 </Link>
