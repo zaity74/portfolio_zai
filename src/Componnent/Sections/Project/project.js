@@ -12,9 +12,9 @@ import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
 import VueApp from "../../../images/screenAnnonce.png";
-import VueApp from "../../../images/screenAnnonce.png";
 import jardins from  "../../../images/1001Jardins.png";
 import Appnal from "../../../images/Appnal.png";
+import Elezov from "../../../images/Elezov.png";
 
 // Redux import
 // Hooks
@@ -73,7 +73,7 @@ function Project(props) {
                       <img src={jardins} alt="basket-photo" />
                     </div>
                     <div className="bottom">
-                      <span>Wordpress, PHP</span>
+                      <span>Wordpress, PHP, Elementor</span>
                     </div>
                   </div>
                 </Link>
@@ -93,7 +93,27 @@ function Project(props) {
                       <img src={Appnal} alt="basket-photo" />
                     </div>
                     <div className="bottom">
-                      <span>Wordpress, PHP</span>
+                      <span>Wordpress, PHP, Elementor</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://elezov-renovation.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Elezov rennovation </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={Elezov} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP, Elementor</span>
                     </div>
                   </div>
                 </Link>
