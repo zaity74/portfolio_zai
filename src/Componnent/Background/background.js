@@ -4,10 +4,10 @@ import './background.css';
 function BackgroundBody(props) {
     const [animationStarted, setAnimationStarted] = useState(false);
 
-    useEffect(() => {
-        // Commencez l'animation lorsque le composant est monté
-        setAnimationStarted(true);
-    }, []);
+    // useEffect(() => {
+    //     // Commencez l'animation lorsque le composant est monté
+    //     setAnimationStarted(true);
+    // }, []);
 
     return (
         <div className='bgd-body'>

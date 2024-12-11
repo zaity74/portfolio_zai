@@ -12,6 +12,7 @@ import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
 import VueApp from "../../../images/screenAnnonce.png";
+import VueApp from "../../../images/screenAnnonce.png";
 import jardins from  "../../../images/1001Jardins.png";
 import Appnal from "../../../images/Appnal.png";
 
@@ -89,7 +90,7 @@ function Project(props) {
                       <p>Projet Front-end</p>
                     </div>
                     <div className="image">
-                      <img src={jardins} alt="basket-photo" />
+                      <img src={Appnal} alt="basket-photo" />
                     </div>
                     <div className="bottom">
                       <span>Wordpress, PHP</span>
@@ -205,7 +206,15 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">Online courses web App </span>
+                      <span className="under">Online courses web App </span>
                       <p>
+                        Projet scolaire visant à développer une application
+                        complète pour la gestion des cours en ligne.
+                        L'application permet aux utilisateurs de réserver des
+                        sessions de cours avec des instructeurs enregistrés sur
+                        la base d'un thème spécifique. Les formateurs peuvent
+                        s'inscrire, enregistrer leur compte et publier des
+                        annonces sur leurs cours.
                         Projet scolaire visant à développer une application
                         complète pour la gestion des cours en ligne.
                         L'application permet aux utilisateurs de réserver des

@@ -17,10 +17,10 @@ function Banner(props) {
   // New constantes
 
   // Page load
-  useEffect(() => {
-    const tl = gsap.timeline({ defaults: { duration: 12 } });
-    tl.from(".text-container", {opacity: 1, ease: "bounce" });
-  }, []);
+  // useEffect(() => {
+  //   const tl = gsap.timeline({ defaults: { duration: 12 } });
+  //   tl.from(".text-container", {opacity: 1, ease: "bounce" });
+  // }, []);
 
   // Events
 
