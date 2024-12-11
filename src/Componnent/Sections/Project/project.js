@@ -12,6 +12,8 @@ import JOPredictionApp from "../../../images/screenJO2024.png";
 import YoutubeApp from "../../../images/screenYoutubeApp.png";
 import CV from "../../../images/Cv_ZaiFrederic2024.pdf";
 import VueApp from "../../../images/screenAnnonce.png";
+import jardins from  "../../../images/1001Jardins.png";
+import Appnal from "../../../images/Appnal.png";
 
 // Redux import
 // Hooks
@@ -55,7 +57,47 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
-              {/* 2eme position */}
+              {/* 1ère position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://1001jardins.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">1001Jardins </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={jardins} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://www.appnal.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Appnal </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={jardins} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 3eme position */}
               <li>
                 <Link
                   target="blank"
@@ -75,7 +117,7 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 3eme position */}
+              {/* 4eme position */}
               <li>
                 <Link target="blank" to={"https://www.drbekri-gynecologue.ch/"}>
                   <div className="card">
@@ -103,7 +145,7 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 4eme position */}
+              {/* 5eme position */}
               <li>
                 <Link target="blank" to={"https://www.123goldexpert.ch/"}>
                   <div className="card">
@@ -123,7 +165,7 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 0er position */}
+              {/* 6er position */}
               <li>
                 <Link
                   target="blank"
@@ -152,7 +194,7 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 0er position */}
+              {/* 7er position */}
               <li>
                 <Link
                   target="blank"
