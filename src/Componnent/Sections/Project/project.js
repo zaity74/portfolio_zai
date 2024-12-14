@@ -16,6 +16,7 @@ import jardins from  "../../../images/1001Jardins.png";
 import Appnal from "../../../images/Appnal.png";
 import Elezov from "../../../images/Elezov.png";
 import Annecy from "../../../images/Annecy.jpeg";
+import Plan from "../../../images/planOuates (2).jpeg";
 
 // Redux import
 // Hooks
@@ -72,6 +73,26 @@ function Project(props) {
                     </div>
                     <div className="image">
                       <img src={Elezov} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP, Elementor</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 1ère position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://www.plan-les-ouates.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Commune Plan-les-ouates </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={Plan} alt="basket-photo" />
                     </div>
                     <div className="bottom">
                       <span>Wordpress, PHP, Elementor</span>
