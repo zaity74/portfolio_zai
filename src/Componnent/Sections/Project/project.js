@@ -15,6 +15,7 @@ import VueApp from "../../../images/screenAnnonce.png";
 import jardins from  "../../../images/1001Jardins.png";
 import Appnal from "../../../images/Appnal.png";
 import Elezov from "../../../images/Elezov.png";
+import Annecy from "../../../images/Annecy.jpeg";
 
 // Redux import
 // Hooks
@@ -122,18 +123,18 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://elezov-renovation.ch/"}
+                  to={"https://basketball-demo.netlify.app/"}
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under">Elezov rennovation </span>
-                      <p>Projet Front-end</p>
+                      <span className="under">Basketball e-commerce demo </span>
+                      <p>Projet Full Stack</p>
                     </div>
                     <div className="image">
-                      <img src={Elezov} alt="basket-photo" />
+                      <img src={Annecy} alt="basket-photo" />
                     </div>
                     <div className="bottom">
-                      <span>Wordpress, PHP, Elementor</span>
+                      <span>React, NodeJs</span>
                     </div>
                   </div>
                 </Link>
