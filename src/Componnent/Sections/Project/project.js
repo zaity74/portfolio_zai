@@ -16,7 +16,7 @@ import jardins from  "../../../images/1001Jardins.png";
 import Appnal from "../../../images/Appnal.png";
 import Elezov from "../../../images/Elezov.png";
 import Annecy from "../../../images/Annecy.jpeg";
-import Plan from "../../../images/plan.jpeg";
+import Plan from "../../../images/planO.png";
 
 // Redux import
 // Hooks
