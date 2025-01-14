@@ -84,11 +84,11 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://www.plan-les-ouates.ch/"}
+                  to={"https://amenagementplo.ch/"}
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under">Commune Plan-les-ouates </span>
+                      <span className="under">Aménagement Plan-les-ouates </span>
                       <p>Projet Front-end</p>
                     </div>
                     <div className="image">
