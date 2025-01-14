@@ -17,6 +17,7 @@ import Appnal from "../../../images/Appnal.png";
 import Elezov from "../../../images/Elezov.png";
 import Annecy from "../../../images/Annecy.jpeg";
 import Plan from "../../../images/planO.png";
+import PLO from "../../../images/PLO.png";
 
 // Redux import
 // Hooks
@@ -92,7 +93,7 @@ function Project(props) {
                       <p>Projet Front-end</p>
                     </div>
                     <div className="image">
-                      <img src={Plan} alt="basket-photo" />
+                      <img src={PLO} alt="basket-photo" />
                     </div>
                     <div className="bottom">
                       <span>Wordpress, PHP, Elementor</span>
