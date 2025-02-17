@@ -18,6 +18,8 @@ import Elezov from "../../../images/Elezov.png";
 import Annecy from "../../../images/Annecy.jpeg";
 import Plan from "../../../images/planO.png";
 import PLO from "../../../images/PLO.png";
+import Autour from "../../../images/Autour.png";
+import Bitcoin from "../../../images/Bitcoin.png";
 
 // Redux import
 // Hooks
@@ -61,6 +63,46 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://github.com/zaity74/Cours-bitcoin-Analyses-DL-Python-2"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under"> Projet IA et Big data </span>
+                      <p>Développement d’un Pipeline Big Data pour l’Analyse Prédictive du Bitcoin</p>
+                    </div>
+                    <div className="image">
+                      <img src={Bitcoin} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Docker, Python, Kafka, Spark, Hadoop, Scikit-learn, TensorFlow</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://www.autourdutemps.ch/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Autourdutemps.ch </span>
+                      <p>Projet Front-end</p>
+                    </div>
+                    <div className="image">
+                      <img src={Autour} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Wordpress, PHP, Elementor</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 2ème position */}
               <li>
                 <Link
@@ -172,12 +214,7 @@ function Project(props) {
                         pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site
                         a été construit à l'aide du système de gestion de
                         contenu (CMS) Odoo, avec l'intégration d'une maquette
-                        graphique personnalisée. Les fonctionnalités de ce site
-                        comprennent des pages de présentation détaillée, une
-                        page de contact pour faciliter la communication avec les
-                        patients, ainsi qu'une page de blog pour partager des
-                        articles et des informations pertinentes dans le domaine
-                        de la gynécologie.
+                        graphique personnalisée.
                       </p>
                     </div>
                     <div className="image">
@@ -218,22 +255,17 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">
-                        2024 Olympics games prediction Web App{" "}
+                        Projet Data science
                       </span>
                       <p>
-                        Projet scolaire sur la conception d'une web application
-                        proposant une visualisation sur la performance des
-                        athlètes, les résultats par pays et les tendances
-                        historiques. Et quelques prediction sur les jeux
-                        olympiques 2024 sur les top 10 des pays au JO 2024 et
-                        une prediction des médailles pour la france
+                        Olympics games 2024 Prediction 
                       </p>
                     </div>
                     <div className="image">
                       <img src={JOPredictionApp} alt="basket-photo" />
                     </div>
                     <div className="bottom">
-                      <span>React, Flask, Python, PostgreSql</span>
+                      <span>React, Flask, Python, TensorFlow, Scikit-learn, Pandas, NumPy...</span>
                     </div>
                   </div>
                 </Link>

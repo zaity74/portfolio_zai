@@ -1,3 +1,5 @@
+/* Desktop */ 
+
 @media all and (min-width: 1024px){
     #project {
         position: relative; /* Set position relative for the pseudo-element */
@@ -25,7 +27,7 @@
                     display: inline-block;
                     text-transform: uppercase;
                     font-size: 14px;
-                    color: #8a05ff;
+                    color: #ffffff;
                     background-color: #ffffff1a;
                     border: 1px rgb(201, 201, 201) solid;
                     padding: 5px 10px;
@@ -158,6 +160,7 @@
     }
 }
 
+/* Tablet */
 @media all and (max-width: 1024px) and (min-width: 720px){
     #project {
         position: relative; /* Set position relative for the pseudo-element */

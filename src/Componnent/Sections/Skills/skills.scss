@@ -1,3 +1,4 @@
+/* Desktop */
 @media all and (min-width: 1024px){
     #skills {
         position: relative; /* Set position relative for the pseudo-element */
@@ -151,7 +152,7 @@
                                 }
                                 .icone{
                                     font-size: 3em;
-                                    color: #004182;
+                                    color: #ffffff;
                                 }
                             }
                         }
@@ -162,6 +163,8 @@
         }
     }
 }
+
+
 @media all and (max-width: 1024px) and (min-width: 720px){
     #skills {
         position: relative; /* Set position relative for the pseudo-element */
