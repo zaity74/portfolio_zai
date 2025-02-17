@@ -19,7 +19,7 @@ import Annecy from "../../../images/Annecy.jpeg";
 import Plan from "../../../images/planO.png";
 import PLO from "../../../images/PLO.png";
 import Autour from "../../../images/Autour.png";
-import Bitcoin from "../../../images/Bitcoin.png";
+import Bitcoin from "../../../images/Bitcoin.jpg";
 
 // Redux import
 // Hooks
@@ -63,6 +63,30 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 6er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={"https://client-lemon-chi.vercel.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">
+                        Projet Data science
+                      </span>
+                      <p>
+                        Olympics games 2024 Prediction 
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={JOPredictionApp} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, Flask, Python, TensorFlow, Scikit-learn, Pandas, NumPy...</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 2ème position */}
               <li>
                 <Link
@@ -246,57 +270,22 @@ function Project(props) {
                   </div>
                 </Link>
               </li>
-              {/* 6er position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://client-lemon-chi.vercel.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">
-                        Projet Data science
-                      </span>
-                      <p>
-                        Olympics games 2024 Prediction 
-                      </p>
-                    </div>
-                    <div className="image">
-                      <img src={JOPredictionApp} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, Flask, Python, TensorFlow, Scikit-learn, Pandas, NumPy...</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
               {/* 7er position */}
               <li>
                 <Link
-                  target="blank"
-                  to={
-                    "https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"
-                  }
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under">Online courses web App </span>
-                      <span className="under">Online courses web App </span>
+                      <span className="under">Full stack Project </span>
                       <p>
-                        Projet scolaire visant à développer une application
-                        complète pour la gestion des cours en ligne.
-                        L'application permet aux utilisateurs de réserver des
-                        sessions de cours avec des instructeurs enregistrés sur
-                        la base d'un thème spécifique. Les formateurs peuvent
-                        s'inscrire, enregistrer leur compte et publier des
-                        annonces sur leurs cours.
-                        Projet scolaire visant à développer une application
-                        complète pour la gestion des cours en ligne.
-                        L'application permet aux utilisateurs de réserver des
-                        sessions de cours avec des instructeurs enregistrés sur
-                        la base d'un thème spécifique. Les formateurs peuvent
-                        s'inscrire, enregistrer leur compte et publier des
-                        annonces sur leurs cours.
+                        Online courses Wep App <br></br>
+                        <Link target="blank" 
+                        to={"https://github.com/zaity74/Vuejs_onlline_courses_backend/tree/main"}>Code Backend
+                        </Link>
+                        <br></br>
+                        <Link target="blank" 
+                        to={"https://github.com/zaity74/Vuejs_online_courses_app_frontend/tree/main"}>Code Frontend
+                        </Link>
                       </p>
                     </div>
                     <div className="image">
