@@ -20,6 +20,8 @@ import Plan from "../../../images/planO.png";
 import PLO from "../../../images/PLO.png";
 import Autour from "../../../images/Autour.png";
 import Bitcoin from "../../../images/Bitcoin.jpg";
+import Spark from "../../../images/Spark.ipynb";
+import Meteo from "../../../images/meteo.jpg";
 
 // Redux import
 // Hooks
@@ -63,6 +65,32 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 6er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={Spark}
+                  download={Spark}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">
+                        Projet Big data
+                      </span>
+                      <p>
+                        Projet Apache Spark : Analyse des données climatiques mondiales 
+                        de Global Surface Summary of the Day (GSOD) provenant de NOAA
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={Meteo} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Python, Spark, pandas, matplotlib, </span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 6er position */}
               <li>
                 <Link
