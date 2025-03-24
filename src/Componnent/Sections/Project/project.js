@@ -75,7 +75,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">
-                        Projet full stack 
+                        Projet full stack : Social Media
                       </span>
                       <p>
                       SocialMedY est une application de réseau social interactive, 
@@ -123,7 +123,7 @@ function Project(props) {
               <li>
                 <Link
                   target="blank"
-                  to={"https://client-lemon-chi.vercel.app/"}
+                  to={"https://predictjo2024.netlify.app/predictions"}
                 >
                   <div className="card">
                     <div className="top">
@@ -139,6 +139,26 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>React, Flask, Python, TensorFlow, Scikit-learn, Pandas, NumPy...</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+               {/* 2ème position */}
+               <li>
+                <Link
+                  target="blank"
+                  to={"https://basketball-demo.netlify.app/"}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">Basketball e-commerce demo </span>
+                      <p>Projet Full Stack</p>
+                    </div>
+                    <div className="image">
+                      <img src={Annecy} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>React, NodeJs</span>
                     </div>
                   </div>
                 </Link>
@@ -259,26 +279,6 @@ function Project(props) {
                     </div>
                     <div className="bottom">
                       <span>Wordpress, PHP, Elementor</span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-              {/* 2ème position */}
-              <li>
-                <Link
-                  target="blank"
-                  to={"https://basketball-demo.netlify.app/"}
-                >
-                  <div className="card">
-                    <div className="top">
-                      <span className="under">Basketball e-commerce demo </span>
-                      <p>Projet Full Stack</p>
-                    </div>
-                    <div className="image">
-                      <img src={Annecy} alt="basket-photo" />
-                    </div>
-                    <div className="bottom">
-                      <span>React, NodeJs</span>
                     </div>
                   </div>
                 </Link>
