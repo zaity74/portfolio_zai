@@ -22,6 +22,7 @@ import Autour from "../../../images/Autour.png";
 import Bitcoin from "../../../images/Bitcoin.jpg";
 import Spark from "../../../images/Spark.ipynb";
 import Meteo from "../../../images/meteo.jpg";
+import Social from "../../../images/socialMedia.png";
 
 // Redux import
 // Hooks
@@ -65,6 +66,33 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">Mes projets</p>
             <ul className="project-list">
+              {/* 6er position */}
+              <li>
+                <Link
+                  target="blank"
+                  to='https://socialmedy.netlify.app/'
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">
+                        Projet full stack 
+                      </span>
+                      <p>
+                      SocialMedY est une application de réseau social interactive, 
+                      permettant aux utilisateurs de se connecter, partager des contenus et échanger en temps réel. 
+                      Ce projet combine des fonctionnalités modernes telles que le chat en temps réel, la gestion de profils et 
+                      la création de publications. 
+                      </p>
+                    </div>
+                    <div className="image">
+                      <img src={Social} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>ReactJs, ViteJs, NodeJs, Express, MangoDB </span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 6er position */}
               <li>
                 <Link
