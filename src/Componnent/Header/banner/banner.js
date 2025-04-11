@@ -49,18 +49,12 @@ function Banner(props) {
                 <BsGithub className="icone" />
               </Link>
             </div>
-            <h3>Développeur full-stack Junior 🧑🏾‍💻</h3>
+            <h3>Junior data engineer & fullstack developer🧑🏾‍💻</h3>
             <p>
-              Récemment diplômé d'un Bachelor en informatique, je suis
-              actuellement à la recherche d'un stage de 12 mois en tant que
-              développeur full-stack pour finaliser mon master. Passionné par le
-              code, je suis particulièrement motivé par la création
-              d'applications fonctionnelles répondant à des besoins métiers
-              spécifiques. Mon ambition est de devenir un développeur confirmé,
-              et je suis déterminé à acquérir les compétences et l'expérience
-              nécessaires pour y parvenir. Coder est pour moi bien plus qu'une
-              simple activité professionnelle, c'est une véritable passion
-              quotidienne qui me pousse à m'améliorer constamment et à innover.
+            With experience across various sectors, I’ve developed a strong curiosity for business challenges, driving me to solve both
+            technical and business problems using AI, data, and software engineering. My calm, analytical nature enables me to
+            approach issues with serenity and collaborate effectively with teams.
+            Currently in my final year of a master’s program, I’m seeking an apprenticeship for September 2025
             </p>
           </div>
           <div className="image-hero">

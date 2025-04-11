@@ -64,7 +64,7 @@ function Project(props) {
       <section id="project">
         <div className="container">
           <div className="text-container">
-            <p className="section-name">Mes projets</p>
+            <p className="section-name">My projects</p>
             <ul className="project-list">
               {/* 6er position */}
               <li>
@@ -75,13 +75,13 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">
-                        Projet full stack : Social Media
+                        Fullstack developement : Social Media
                       </span>
                       <p>
-                      SocialMedY est une application de réseau social interactive, 
-                      permettant aux utilisateurs de se connecter, partager des contenus et échanger en temps réel. 
-                      Ce projet combine des fonctionnalités modernes telles que le chat en temps réel, la gestion de profils et 
-                      la création de publications. 
+                      SocialMedY is an interactive social networking application, 
+                      , enabling users to connect, share content and exchange ideas in real time. 
+                      This project combines modern functionalities such as real-time chat, profile management and 
+                      the creation of publications.
                       </p>
                     </div>
                     <div className="image">
@@ -103,11 +103,11 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">
-                        Projet Big data
+                        Big data project
                       </span>
                       <p>
-                        Projet Apache Spark : Analyse des données climatiques mondiales 
-                        de Global Surface Summary of the Day (GSOD) provenant de NOAA
+                      Apache Spark project: Analysis of global climate data 
+                      from NOAA's Global Surface Summary of the Day (GSOD)
                       </p>
                     </div>
                     <div className="image">
@@ -128,7 +128,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">
-                        Projet Data science
+                        Data science project
                       </span>
                       <p>
                         Olympics games 2024 Prediction 
@@ -171,8 +171,8 @@ function Project(props) {
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under"> Projet IA et Big data </span>
-                      <p>Développement d’un Pipeline Big Data pour l’Analyse Prédictive du Bitcoin</p>
+                      <span className="under"> AI & Big data project</span>
+                      <p>Development of a Big Data Pipeline for Predictive Bitcoin Analysis</p>
                     </div>
                     <div className="image">
                       <img src={Bitcoin} alt="basket-photo" />
@@ -192,7 +192,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">Autourdutemps.ch </span>
-                      <p>Projet Front-end</p>
+                      <p>Frontend project</p>
                     </div>
                     <div className="image">
                       <img src={Autour} alt="basket-photo" />
@@ -212,7 +212,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">Elezov rennovation </span>
-                      <p>Projet Front-end</p>
+                      <p>Frontend project</p>
                     </div>
                     <div className="image">
                       <img src={Elezov} alt="basket-photo" />
@@ -232,7 +232,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">Aménagement Plan-les-ouates </span>
-                      <p>Projet Front-end</p>
+                      <p>Frontend project</p>
                     </div>
                     <div className="image">
                       <img src={PLO} alt="basket-photo" />
@@ -272,7 +272,7 @@ function Project(props) {
                   <div className="card">
                     <div className="top">
                       <span className="under">Appnal </span>
-                      <p>Projet Front-end</p>
+                      <p>Frontend project</p>
                     </div>
                     <div className="image">
                       <img src={Appnal} alt="basket-photo" />
@@ -290,11 +290,11 @@ function Project(props) {
                     <div className="top">
                       <span className="under">Dr BEKRI</span>
                       <p>
-                        Projet d'entreprise visant à développer un site vitrine
-                        pour le Dr. Bekri, un gynécologue basé à Meyrin. Ce site
-                        a été construit à l'aide du système de gestion de
-                        contenu (CMS) Odoo, avec l'intégration d'une maquette
-                        graphique personnalisée.
+                      Business project to develop a showcase site
+                      for Dr. Bekri, a gynaecologist based in Meyrin. The
+                      website was built using the Odoo
+                      content management system (CMS), with the integration of a customised
+                      graphic model.
                       </p>
                     </div>
                     <div className="image">
@@ -313,8 +313,9 @@ function Project(props) {
                     <div className="top">
                       <span className="under">Valorum</span>
                       <p>
-                        Projet Bénévole en companie de Yotech, site vitrine et
-                        e-commerce <br></br>
+                        Volunteer project with Yotech, showcase site and
+                        e-commerce
+                        <br></br>
                       </p>
                     </div>
                     <div className="image">
@@ -440,15 +441,14 @@ function Project(props) {
                     <div className="top">
                       <span className="under">Music App demo </span>
                       <p>
-                        Projet front-end scolaire utilisant React et TypeScript,
-                        qui consiste en une application de musique
-                        personnalisée. Cette application offre une sélection de
-                        musique ajoutée manuellement. Avec cette application,
-                        vous pouvez démarrer, arrêter et changer les pistes de
-                        musique à volonté. De plus, celle ci dispose d'une
-                        fonctionnalité de lecture en boucle, permettant à
-                        l'utilisateur d'écouter sa musique préférée de manière
-                        répétée.
+                      School front-end project using React and TypeScript,
+                      which consists of a customised
+                      music application. This application offers a selection of
+                      music added manually. With this application,
+                      you can start, stop and change tracks of
+                      music at will. What's more, it has a
+                      loop playback feature, allowing
+                      users to listen to their favourite music over and over again
                       </p>
                     </div>
                     <div className="image">
@@ -466,9 +466,9 @@ function Project(props) {
                   <div className="card card-info">
                     <div className="top">
                       <span className="under">
-                        Création et intégration d'un site de bijoux en 4 jours
+                      Creating and integrating a jewellery website in 4 days
                       </span>
-                      <p>Projet scolaire, challenge stack</p>
+                      <p>School project, stack challenge</p>
                     </div>
                     <div className="image">
                       <img src={emma} alt="" />
@@ -516,23 +516,23 @@ function Project(props) {
                 <Link to={"#"}>
                   <div className="card">
                     <div className="overlay">
-                      <h4>Description</h4>
+                      <h4>Odoo module for customer training</h4>
                       <p>
-                        Développement d'un module interne, dedié à la gestion
-                        des formations client sur Odoo. <br></br>
-                        Le module a été développer avec le framework Odoo
-                        Python. Ce module permet de créer des formations et des
-                        sessions de formations pour chaque clients. Il permet de
-                        saisir les participants à chaque sessions, envoyer des
-                        évaluations, saisir les présence de chaque participants.{" "}
+                      Development of an internal module, dedicated to the management
+                      of customer training courses on Odoo. <br></br>
+                      The module was developed using the Odoo framework
+                      Python. This module can be used to create training courses and
+                      training sessions for each customer. It can be used to
+                      enter the participants for each session, send
+                      evaluations and enter the attendance of each participant.{" "}
                         <br></br>
-                        Et envoyer des dossiers et mail relatifs à la formation.
+                        And send files and emails relating to training.
                       </p>
                     </div>
                     <div className="top">
-                      <p>Projet d'entreprise</p>
+                      <p>Internship project</p>
                       <span className="under">
-                        Modules de gestion de formations
+                        Module for formation management
                       </span>
                     </div>
                     <div className="image">
