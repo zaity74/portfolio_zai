@@ -31,7 +31,7 @@ function Banner(props) {
       <section id="banner">
         <div className="container">
           <div className="text-container">
-            <p className="section-name">A propos</p>
+            <p className="section-name">About me</p>
             <h2 className="title">
               <span>
                 Hi, recruiter !<br></br>
