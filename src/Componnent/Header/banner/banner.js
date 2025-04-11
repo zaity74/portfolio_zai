@@ -54,7 +54,7 @@ function Banner(props) {
             With experience across various sectors, I’ve developed a strong curiosity for business challenges, driving me to solve both
             technical and business problems using AI, data, and software engineering. My calm, analytical nature enables me to
             approach issues with serenity and collaborate effectively with teams.
-            Currently in my final year of a master’s program, I’m seeking an apprenticeship for September 2025
+            Currently in my final year of a master’s program, <b>I’m seeking an apprenticeship for September 2025</b>
             </p>
           </div>
           <div className="image-hero">

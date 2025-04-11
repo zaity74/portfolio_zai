@@ -27,10 +27,9 @@ function Skills(props) {
         <section id="skills">
           <div className="container">
             <div className="text-container">
-              <p className="section-name">Mes compétences</p>
+              <p className="section-name">My technical skills</p>
               <p>
-              J'ai été amené à acquérir une multitude de compétences sur des technologies variées lors de la réalisation de mes différents projets et en entreprise.
-              </p>
+              I've acquired a wide range of skills in a variety of technologies in the course of my various projects and in companies.              </p>
               <ul className="skills-filter">
                 <li className={`filter ${filter === 'Front-end' ? 'selected' : ''}`} onClick={() => handleFilterClick('Front-end')}>
                   <p>Front-end</p>
@@ -39,7 +38,7 @@ function Skills(props) {
                   <p>Back-end</p>
                 </li>
                 <li className={`filter ${filter === 'Autres' ? 'selected' : ''}`} onClick={() => handleFilterClick('Autres')}>
-                  <p>Autres</p>
+                  <p>Others</p>
                 </li>
               </ul>
             </div>
