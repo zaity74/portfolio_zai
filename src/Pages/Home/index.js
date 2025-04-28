@@ -4,7 +4,7 @@ import Skills from "../../Componnent/Sections/Skills/skills";
 import Project from "../../Componnent/Sections/Project/project";
 import { Link, useParams } from 'react-router-dom';
 import cvFred from '../../images/Cv_FZaï_versionFr.pdf';
-import CV from '../../images/Cv-Zai-Frederic-internship-data-engineer-2025.pdf';
+import CV from '../../images/Fred-resume.pdf';
 import "./index.scss";
 import BackgroundBody from "../../Componnent/Background/background";
 // Redux import 
