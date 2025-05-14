@@ -537,20 +537,17 @@ function Project(props) {
               </li>
               {/* 9eme position */}
               <li>
-                <Link to={"#"}>
+                <Link to={"https://github.com/zaity74/odoo_python_formation_"}>
                   <div className="card">
                     <div className="overlay">
-                      <h4>Odoo module for customer training</h4>
+                      <h4>Odoo Module for Customer Training Management</h4>
                       <p>
-                      Development of an internal module, dedicated to the management
-                      of customer training courses on Odoo. <br></br>
-                      The module was developed using the Odoo framework
-                      Python. This module can be used to create training courses and
-                      training sessions for each customer. It can be used to
-                      enter the participants for each session, send
-                      evaluations and enter the attendance of each participant.{" "}
-                        <br></br>
-                        And send files and emails relating to training.
+                      Designed and developed a custom internal module within the Odoo framework to streamline the management of customer training programs. The module allows administrators to:
+                          Create and manage training courses and individual sessions per client
+                          Register participants and track attendance
+                          Send evaluation forms and follow-up emails
+                          Upload and share training-related documents
+                      Built entirely in Python using the Odoo ORM and view system.
                       </p>
                     </div>
                     <div className="top">
