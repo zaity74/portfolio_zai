@@ -23,6 +23,8 @@ import Bitcoin from "../../../images/Bitcoin.jpg";
 import Spark from "../../../images/Spark.ipynb";
 import Meteo from "../../../images/meteo.jpg";
 import Social from "../../../images/socialMedia.png";
+import Bitcoin2 from '../../../images/file/LSTM_Bitcoin_price_prediction.ipynb';
+import Bitcoin3 from '../../../images/bitcoin-image.jpg';
 
 // Redux import
 // Hooks
@@ -66,6 +68,27 @@ function Project(props) {
           <div className="text-container">
             <p className="section-name">My projects</p>
             <ul className="project-list">
+              {/* 2ème position */}
+              <li>
+                <Link
+                  target="blank"
+                  to={Bitcoin2}
+                  download={Bitcoin2}
+                >
+                  <div className="card">
+                    <div className="top">
+                      <span className="under">  Predictive Bitcoin Forecasting with Deep Learning</span>
+                      <p>Developed a time-series forecasting solution using LSTM networks to anticipate Bitcoin price trends. The project enables short-term prediction of market behavior by analyzing historical OHLCV data, helping anticipate potential fluctuations and support informed trading decisions.</p>
+                    </div>
+                    <div className="image">
+                      <img src={Bitcoin3} alt="basket-photo" />
+                    </div>
+                    <div className="bottom">
+                      <span>Python, TensorFlow/keras, Pandas, matplotlib, Scikit-learn, Google Colab, LSTM, TQDM</span>
+                    </div>
+                  </div>
+                </Link>
+              </li>
               {/* 6er position */}
               <li>
                 <Link
@@ -171,8 +194,9 @@ function Project(props) {
                 >
                   <div className="card">
                     <div className="top">
-                      <span className="under"> AI & Big data project</span>
-                      <p>Development of a Big Data Pipeline for Predictive Bitcoin Analysis</p>
+                      <span className="under"> Development of a Real-Time ETL Pipeline for Predictive Bitcoin Analysis</span>
+                      <p>Developed a real-time ETL pipeline that streams Binance API data into Kafka, processes it with Spark, and stores it in HDFS as Parquet files.
+                      The data powers LSTM models for Bitcoin price prediction.</p>
                     </div>
                     <div className="image">
                       <img src={Bitcoin} alt="basket-photo" />
