@@ -603,10 +603,21 @@ import Meteo from "../../../images/meteo.jpg";
 import Social from "../../../images/socialMedia.png";
 import Bitcoin2 from "../../../images/file/LSTM_Bitcoin_price_prediction.ipynb";
 import Bitcoin3 from "../../../images/bitcoin-image.jpg";
+import Datahub from "../../../images/data-hub.png";
 
 const allProjects = [
   {
     id: 1,
+    title: "Full stack developement : Data hub application",
+    description: "Un data hub intelligent pour importer des fichiers CSV, les visualiser en tableaux dynamiques, et exploiter l'IA pour résumer les données ou générer des requêtes SQL via un prompt naturel.",
+    tech: "Angular, Typescript, NestJs, OpenAI, csvParser,",
+    image: Datahub,
+    type: "Fullstack",
+    link: 'https://github.com/zaity74/data-hub-frontend/tree/main/src',
+    download: true,
+  },
+  {
+    id: 2,
     title: "Predictive Bitcoin Forecasting with Deep Learning",
     description: "Developed a time-series forecasting solution using LSTM networks to anticipate Bitcoin price trends.",
     tech: "Python, TensorFlow, Pandas, Matplotlib, Scikit-learn",
@@ -616,7 +627,7 @@ const allProjects = [
     download: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Fullstack developement : Social Media",
     description: "SocialMedY is an interactive social networking application with real-time chat and content sharing.",
     tech: "ReactJs, ViteJs, NodeJs, Express, MongoDB",
@@ -626,7 +637,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Big data project",
     description: "Apache Spark project: Analysis of global climate data from NOAA's GSOD.",
     tech: "Python, Spark, Pandas, Matplotlib",
@@ -636,7 +647,7 @@ const allProjects = [
     download: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "Olympics games 2024 Prediction",
     description: "Data science project predicting Olympic results.",
     tech: "React, Flask, Python, TensorFlow, Scikit-learn",
@@ -646,7 +657,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Basketball e-commerce demo",
     description: "Full Stack project for a demo basketball shop.",
     tech: "React, NodeJs",
@@ -656,7 +667,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Autourdutemps.ch",
     description: "Frontend showcase site for a Swiss watchmaker.",
     tech: "Wordpress, PHP, Elementor",
@@ -666,7 +677,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Odoo Module for Customer Training Management",
     description: "Designed and developed a custom internal module within the Odoo framework to streamline the management of customer training programs. The module allows administrators to manage courses, sessions, attendance, and communication.",
     tech: "Odoo, Python",
@@ -676,7 +687,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Elezov Renovation",
     description: "Corporate website for Elezov Renovation company using Elementor.",
     tech: "Wordpress, PHP, Elementor",
@@ -686,7 +697,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Aménagement Plan-les-ouates",
     description: "Showcase site for Plan-les-ouates urban planning.",
     tech: "Wordpress, PHP, Elementor",
@@ -696,7 +707,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 10,
+    id: 11,
     title: "1001Jardins",
     description: "Website for a landscaping and garden maintenance business.",
     tech: "Wordpress, PHP, Elementor",
@@ -706,7 +717,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 11,
+    id: 12,
     title: "Appnal",
     description: "Corporate website for Appnal association.",
     tech: "Wordpress, PHP, Elementor",
@@ -716,7 +727,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 12,
+    id: 13,
     title: "Dr BEKRI",
     description: "Website for a gynecology clinic built with Odoo CMS.",
     tech: "Odoo",
@@ -726,7 +737,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 13,
+    id: 14,
     title: "Valorum",
     description: "Volunteer project with Yotech for a showcase and e-commerce site.",
     tech: "Odoo, Python",
@@ -736,7 +747,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 14,
+    id: 15,
     title: "Online courses Web App",
     description: "A fullstack platform for publishing and managing online course offers.",
     tech: "Vuejs, Nodejs, Express, MongoDB",
@@ -746,7 +757,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 15,
+    id: 16,
     title: "PokeAPI app demo",
     description: "Frontend school project that interacts with the PokéAPI.",
     tech: "React, REST API",
@@ -756,7 +767,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 16,
+    id: 17,
     title: "Youtube video scrapper",
     description: "Fullstack project to convert YouTube videos into MP3 playlists.",
     tech: "React, NodeJs, Express, MongoDB",
@@ -766,7 +777,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 17,
+    id: 18,
     title: "MaBonneEtoile",
     description: "E-commerce website developed with Odoo CMS for MaBonneEtoile.",
     tech: "Odoo",
@@ -776,7 +787,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 18,
+    id: 19,
     title: "Music App demo",
     description: "Custom React/TypeScript music player with playback controls and loop feature.",
     tech: "React, TypeScript",
@@ -786,7 +797,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 19,
+    id: 20,
     title: "Emma Jewellery site",
     description: "Jewellery showcase site created in 4 days for a school project.",
     tech: "React, Sass",
@@ -796,7 +807,7 @@ const allProjects = [
     download: false,
   },
   {
-    id: 20,
+    id: 21,
     title: "Basketball website demo",
     description: "Landing page redesign inspired by SwissCentral Basketball.",
     tech: "React, Sass",
