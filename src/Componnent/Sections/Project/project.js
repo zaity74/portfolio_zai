@@ -604,11 +604,22 @@ import Social from "../../../images/socialMedia.png";
 import Bitcoin2 from "../../../images/file/LSTM_Bitcoin_price_prediction.ipynb";
 import Bitcoin3 from "../../../images/bitcoin-image.jpg";
 import Datahub from "../../../images/data-hub.png";
+import Datahub2 from "../../../images/data-hub2.png";
 
 const allProjects = [
   {
     id: 1,
-    title: "Full stack developement : Data hub application",
+    title: "Full stack developement : Data hub application Backend",
+    description: "Un data hub intelligent pour importer des fichiers CSV, les visualiser en tableaux dynamiques, et exploiter l'IA pour résumer les données ou générer des requêtes SQL via un prompt naturel.",
+    tech: "Angular, Typescript, NestJs, OpenAI, csvParser,",
+    image: Datahub2,
+    type: "Fullstack",
+    link: 'https://github.com/zaity74/data-hub-backend',
+    download: true,
+  },
+  {
+    id: 1,
+    title: "Full stack developement : Data hub application Frontend",
     description: "Un data hub intelligent pour importer des fichiers CSV, les visualiser en tableaux dynamiques, et exploiter l'IA pour résumer les données ou générer des requêtes SQL via un prompt naturel.",
     tech: "Angular, Typescript, NestJs, OpenAI, csvParser,",
     image: Datahub,
